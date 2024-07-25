@@ -1,21 +1,11 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+subtitle: 
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Hi! I am Ishaan Bhadoo. I am interested in probability theory.
+Hi! I am Ishaan Bhadoo. I am a graduate student at Trinity College, University of Cambridge studying maths. I am interested in probability theory, more specifically discrete probability and percolation theory. I am also interested in the countless connections probability has to other areas particularly geometric group theory. 

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Extreme Value Theory
+description: Summer 2022. Project under the guidance of Prof. Antar Bandyopadhyay at ISI, Delhi.
 img:
 importance: 4
-category: fun
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

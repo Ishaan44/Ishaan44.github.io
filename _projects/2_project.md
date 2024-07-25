@@ -1,8 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Supercritical percolation on nonamenable graphs.
+description: Seminar on Probability Theory. Indian Statistical Institute, Bangalore. Fall 2023.
 importance: 2
 category: work
 giscus_comments: true
