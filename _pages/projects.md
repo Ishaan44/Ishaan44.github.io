@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 3
-display_categories: [Projects, Other Writings]
+display_categories: [Projects, Notes and other writings]
 horizontal: false
 ---
 

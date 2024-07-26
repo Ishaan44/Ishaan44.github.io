@@ -1,10 +1,9 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: 
+title: Geometry in Groups
+description: My best attempt to make notes at the conference on Geometry in Groups at ICTS, Bangalore. (29th July- 2nd Aug)
 importance: 4
-category: Other Writings
+category: Notes and other writings
 ---
 
 Every project has a beautiful feature showcase page.
