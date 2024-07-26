@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 display_categories: [Projects, Notes and other writings]
 horizontal: false
+Projects_pdf: Lecture1_MS2.pdf
+
 ---
 
 <!-- pages/projects.md -->
