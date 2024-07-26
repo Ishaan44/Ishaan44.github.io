@@ -4,7 +4,7 @@ title: Percolation thresholds under coverings.
 description: Summer 2024, TIFR.
 img:
 importance: 3
-category: work
+category: Projects
 ---
 
 Every project has a beautiful feature showcase page.

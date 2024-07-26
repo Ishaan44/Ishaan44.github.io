@@ -2,10 +2,10 @@
 layout: page
 title: Lectures on the Ising and Potts model
 description: A study of Hugo Duminil Copin's notes on the Ising and Potts model partially guided by Prof. Subhajit Goswami.
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+img: 
+redirect: 
 importance: 3
-category: work
+category: Projects
 ---
 
 Every project has a beautiful feature showcase page.

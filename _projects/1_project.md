@@ -3,7 +3,7 @@ layout: page
 title: Percolation on hyperbolic graphs
 description: Summer Internship at ICTS. Summer 2023.
 importance: 1
-category: work
+category: Projects
 related_publications: true
 ---
 
