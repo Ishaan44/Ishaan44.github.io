@@ -24,6 +24,6 @@ For Continuum percolation:
 
 ### NOTES:
 
-- [Lecture 1, 25th July](https://ishaan44.github.io/assets/pdf/Lecture1_MS2_pdf.pdf)
-- [Lecture 2, 30th July](https://ishaan44.github.io/projects/)
+- [Lecture 1, 25th July](https://ishaan44.github.io/assets/pdf/Lecture1_MS2.pdf)
+-
 
