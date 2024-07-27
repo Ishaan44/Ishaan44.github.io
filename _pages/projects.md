@@ -1,14 +1,13 @@
 ---
 layout: page
-title: Projects
+title: Math
 permalink: /projects/
-description: 
+description: Check out the details of the math I have done so far including projects, notes and other writings.
 nav: true
 nav_order: 3
 display_categories: [Projects, Notes and other writings]
 horizontal: false
 ---
-
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
