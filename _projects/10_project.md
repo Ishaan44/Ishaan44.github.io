@@ -24,5 +24,6 @@ For Continuum percolation:
 
 ### NOTES:
 
-- [Lecture 1, 25th July](https://ishaan44.github.io/assets/pdf/Lecture1_MS2.pdf)
+- [Lecture 1, 25th July](https://ishaan44.github.io/assets/pdf/Lecture1_MS2.pdf): Introduction, Comparison with the random walk, definition of $$p_c(d)$$, monotonicity of $$\theta(p)$$.
+- [Lecture 2, 30th July](https://ishaan44.github.io/assets/pdf/Lecture2_MS2.pdf): Non-triviality of phase transition for $$\mathbb{Z}^d, d \geq 2$$. Peierls argument, proof of Fekete's lemma. Harris-FKG inequality. 
 
