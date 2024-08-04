@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Percolation Theory (MStat 2nd Year)
-description: Notes for Prof. Rahul Roy's course on Percolation theory offered at ISI, Delhi.
+title: Algebraic Topology (self-study)
+description: Preparation for my part III courses on topology
 importance: 4
 category: Notes and other writings
 ---
-
+We'll follow Pierre Albin's youtube lectures on algebraic topology along with Hatcher's text on the subject.
 ### Goal of the course
 - Bond percolation on $$\mathbb{Z}^d$$
 - Orientable percolation
