@@ -9,5 +9,5 @@ The study of algebraic topology is broadly divided into two parts homotopy and h
 ### Goal of the course
 -Chapters 0,1,2 of Hatcher
 ### References 
-Just Hatcher!
+Just [Hatcher!](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf)
   
