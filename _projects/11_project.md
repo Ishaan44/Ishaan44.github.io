@@ -5,7 +5,6 @@ description: Tentative list of courses
 importance: 4
 category: Notes and other writings
 ---
-### Probability
+### Notes of classes I took
 
-- 
-  
+
