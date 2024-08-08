@@ -39,7 +39,7 @@ For Continuum percolation:
 - [Lecture 8, 22th August](https://ishaan44.github.io/assets/pdf/Lecture8_MS2.pdf):
 - [Lecture 9, 27th August](https://ishaan44.github.io/assets/pdf/Lecture9_MS2.pdf):
 - [Lecture 10, 29th August](https://ishaan44.github.io/assets/pdf/Lecture10_MS2.pdf):
-- 
+
 
 ### Assignments
 [1](https://ishaan44.github.io/assets/pdf/Assignment_1.pdf), [2](https://ishaan44.github.io/assets/pdf/Assignment_2.pdf), [3](https://ishaan44.github.io/assets/pdf/Assignment_3.pdf)
