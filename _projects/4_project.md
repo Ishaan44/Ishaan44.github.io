@@ -27,6 +27,6 @@ $$\mathbb{P}_p(X_n > 0) \leq p^n d(d-1)^{n-1} = (p(d-1))^{n-1} pd \xrightarrow{}
 
 
 
-$$\textbf{Rresult 2.}$$ Let G be a d-regular tree. Then $$p_c(G) = \frac{1}{d-1}$$
+$$\textbf{Result 2.}$$ Let G be a d-regular tree. Then $$p_c(G) = \frac{1}{d-1}$$
 
 

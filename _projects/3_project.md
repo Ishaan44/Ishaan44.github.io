@@ -9,7 +9,6 @@ category: Projects
 ---
 Solutions to exercises given in [Hugo Duminil Copin's notes](https://arxiv.org/pdf/1707.00520) on the Ising model.
 
-
 ### Chapter 1: Graphical representation of the Potts model.
 
 ### Chapter 2: Computation of critical points and sharp phase transitions.
