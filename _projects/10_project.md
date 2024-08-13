@@ -34,7 +34,7 @@ For Continuum percolation:
 - [Lecture 4, 6st August](https://ishaan44.github.io/assets/pdf/Lecture4_MS2.pdf): Inductive proof of the BK inequality. Russo's formula and pivotality.
 - [Lecture 5, 8th August](https://ishaan44.github.io/assets/pdf/Lecture5_MS2.pdf): Proof of Russo's formula. Applications to establish upper and lower bounds on $$\beta_{n+m} 
  (p) := \mathbb{P}_p(C \cap \delta B_{n+m})$$ in terms of $$\beta_{n}(p)\beta_{m}(p).$$
-- [Lecture 6, 15th August](https://ishaan44.github.io/assets/pdf/Lecture6_MS2.pdf):
+- [Lecture 6, 13th August](https://ishaan44.github.io/assets/pdf/Lecture6_MS2.pdf): Defining the connective rate constant $$\phi(p)$$. Asymptotic tail behaviour of the radius of an open cluster. Properties of $$\phi(p)$$ and statement of Burton-Keane.
 - [Lecture 7, 20th August](https://ishaan44.github.io/assets/pdf/Lecture7_MS2.pdf):
 - [Lecture 8, 22th August](https://ishaan44.github.io/assets/pdf/Lecture8_MS2.pdf):
 - [Lecture 9, 27th August](https://ishaan44.github.io/assets/pdf/Lecture9_MS2.pdf):
