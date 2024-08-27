@@ -36,8 +36,8 @@ For Continuum percolation:
  (p) := \mathbb{P}_p(C \cap \delta B_{n+m})$$ in terms of $$\beta_{n}(p)\beta_{m}(p).$$
 - [Lecture 6, 13th August](https://ishaan44.github.io/assets/pdf/Lecture6_MS2.pdf): Defining the connective rate constant $$\phi(p)$$. Asymptotic tail behaviour of the radius of an open cluster. Properties of $$\phi(p)$$ and statement of Burton-Keane.
 - [Lecture 7, 20th August](https://ishaan44.github.io/assets/pdf/Lecture7_MS2.pdf): Basic ergodic theory. Proof of $$N_{\infty} \in \{0,1,\infty\}$$ where $$N_{\infty} := {\text{number of infinite clusters}}$$.
-- [Lecture 8, 22th August](https://ishaan44.github.io/assets/pdf/Lecture8_MS2.pdf):
-- [Lecture 9, 27th August](https://ishaan44.github.io/assets/pdf/Lecture9_MS2.pdf):
+- [Lecture 8, 24th August](https://ishaan44.github.io/assets/pdf/Lecture8_MS2.pdf): Encounter points and proof of Burton-Keane for $$\mathbb{Z}^d.
+- [Lecture 9, 27th August](https://ishaan44.github.io/assets/pdf/Lecture9_MS2.pdf): Dual lattice, Zhang's argument and subcritical sharpness.
 - [Lecture 10, 29th August](https://ishaan44.github.io/assets/pdf/Lecture10_MS2.pdf):
 
 
