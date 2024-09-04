@@ -10,6 +10,13 @@ This project was carried out as part of the Visiting Students Research Programme
 
 It is a well known fact that for a d-regular graph $$G, p_c(G) \geq \frac{1}{d-1}$$. Now if for a d-regular graph we set $$p_c = \frac{1}{d-1}$$ does it imply that the graph is a tree? We answer this question here. 
 
+
+<h2>Using the Critical Threshold to Characterize a Tree</h2>
+<p><strong>Abstract:</strong> In this article, we study the critical threshold for an arbitrary quasi-transitive d-regular graph.
+We show that for such graphs G, p<sub>c</sub>(G) = 1/(d-1) if and only if G is a tree. This gives a neat probabilistic characterization 
+for regular trees. We also give counterexamples for the non-quasi-transitive case.</p>
+
+
 ### Quasi-transitive $$d$$-regular graphs with $$p_c = \frac{1}{d-1}$$ are trees.
 $$\textbf{Main Result.}$$ Let $$G$$ be a $$d$$-regular quasi-transitive graph then if $$G$$ is not isomorphic to a tree. Then,  $$p_c(G) > \frac{1}{d-1}.$$
 
