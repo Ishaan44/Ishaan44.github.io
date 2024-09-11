@@ -8,57 +8,55 @@ nav_order: 3
 display_categories: [Projects, Notes and other writings]
 horizontal: false
 ---
-<!-- pages/projects.md -->
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+
+  <!-- Projects Section -->
+  <h2><strong>Projects</strong></h2>
+  <ol>
+    {% assign sorted_projects = site.projects | where: "category", "Projects" | sort: "importance" %}
     {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+      <li>
+        <div class="project-item">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description | truncatewords: 20 }}</p>
+          <a href="{{ project.url }}" class="read-more">Read more</a>
+        </div>
+      </li>
     {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
+  </ol>
+
+  <hr>
+
+  <!-- Research Section -->
+  <h2><strong>Research</strong></h2>
+  <ol>
+    {% assign sorted_research = site.projects | where: "category", "Research" | sort: "importance" %}
+    {% for research in sorted_research %}
+      <li>
+        <div class="research-item">
+          <h3>{{ research.title }}</h3>
+          <p>{{ research.description | truncatewords: 20 }}</p>
+          <a href="{{ research.url }}" class="read-more">Read more</a>
+        </div>
+      </li>
     {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+  </ol>
 
-{% else %}
+  <hr>
 
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+  <!-- Notes and Other Writings Section -->
+  <h2><strong>Notes and Other Writings</strong></h2>
+  <ol>
+    {% assign sorted_notes = site.projects | where: "category", "Notes and Other Writings" | sort: "importance" %}
+    {% for note in sorted_notes %}
+      <li>
+        <div class="note-item">
+          <h3>{{ note.title }}</h3>
+          <p>{{ note.description | truncatewords: 20 }}</p>
+          <a href="{{ note.url }}" class="read-more">Read more</a>
+        </div>
+      </li>
     {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+  </ol>
+
 </div>
