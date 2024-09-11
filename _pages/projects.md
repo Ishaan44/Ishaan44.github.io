@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Math
+title: <strong>Math</strong>
 permalink: /projects/
 description: Check out the details of the math I have done so far including projects, notes and other writings.
 nav: true
