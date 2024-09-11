@@ -3,7 +3,7 @@ layout: page
 title: Percolation beyond Z^d
 description: 
 importance: 4
-category: Notes and other writings
+category: Notes and Other Writings
 ---
 
 ### Uniqueness and non-uniqueness in almost transitive graphs

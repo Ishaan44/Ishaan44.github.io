@@ -3,7 +3,7 @@ layout: page
 title: Part III Courses
 description: Tentative list of courses
 importance: 4
-category: Notes and other writings
+category: Notes and Other Writings
 ---
 ### $$\textbf{Michaelmas Term (13)}$$
 ### Geometry and Topology

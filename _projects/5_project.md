@@ -4,7 +4,7 @@ title: Percolation of words
 description: A study of percolation of arbitrary words for site percolation on non-amenable graphs. July 2024 - present. 
 img: 
 importance: 3
-category: Projects
+category: Research
 ---
 This project is along with Ritvik Radhakrishnan who is a Ph.D. student in the group of Prof. Vincent Tassion at ETH Zurich. The problem that we will be exploring was suggested by Prof. Tassion. 
 

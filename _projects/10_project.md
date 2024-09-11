@@ -3,7 +3,7 @@ layout: page
 title: Percolation Theory (MStat 2nd Year)
 description: Notes for Prof. Rahul Roy's course on Percolation theory offered at ISI, Delhi.
 importance: 4
-category: Notes and other writings
+category: Notes and Other Writings
 ---
 
 The videos from last year's course on percolation theory can be found [here](https://youtube.com/playlist?list=PLujNR8hHVus72rcPlcB18zhkwW0tGCjDq&feature=shared).

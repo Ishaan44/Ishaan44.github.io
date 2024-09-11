@@ -3,7 +3,7 @@ layout: page
 title: Geometry in Groups
 description: Notes for the conference on Geometry in Groups at ICTS, Bangalore. (29th July- 2nd Aug)
 importance: 4
-category: Notes and other writings
+category: Notes and Other Writings
 ---
 
 This was a very last moment to decision to spend one week at the beautiful ICTS campus doing geometric group theory and probability. Below are the notes for the talks that I attended. My main takeaway from the conference was Coxeter groups and their countless symmetries, for instance Piotr's talk on biautomaticity of coxeter groups was my personal favourite. I also really enjoyed learning more about boundaries of hyperbolic spaces and the property (T). 
