@@ -38,7 +38,9 @@ For Continuum percolation:
 - [Lecture 7, 20th August](https://ishaan44.github.io/assets/pdf/Lecture7_MS2.pdf): Basic ergodic theory. Proof of $$N_{\infty} \in \{0,1,\infty\}$$ where $$N_{\infty} := {\text{number of infinite clusters}}$$.
 - [Lecture 8, 24th August](https://ishaan44.github.io/assets/pdf/Lecture8_MS2.pdf): Encounter points and proof of Burton-Keane for $$\mathbb{Z}^d.
 - [Lecture 9, 27th August](https://ishaan44.github.io/assets/pdf/Lecture9_MS2.pdf):Zhang's argument and proof of Kesten's theorem about the critical point of $$\mathbb{Z}^2.$$ 
-- [Lecture 10, 2nd September](https://ishaan44.github.io/assets/pdf/Lecture10_MS2.pdf):
+- [Lecture 10, 3rd September](https://ishaan44.github.io/assets/pdf/Lecture10_MS2.pdf): Decision trees, differential inequalities the OSSS inequality proof of subcritical sharpness. 
+- [Lecture 11, 5th September](https://ishaan44.github.io/assets/pdf/Lecture11_MS2.pdf): Proof of OSSS inequality. 
+- [Lecture 12, 19th September](https://ishaan44.github.io/assets/pdf/Lecture12_MS2.pdf): Defining the correlation length $\Xi(P)$. Connection to $\phi(p)$. Proof that $\Xi(p) > \Chi(p).$
 
 
 ### Assignments

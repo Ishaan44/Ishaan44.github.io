@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Classic Proofs
-description: Sometimes old is truly gold. On this page I have presented several classical proofs in percolation theory. 
+description: On this page I have presented several classical proofs in percolation theory. 
 importance: 4
 category: Notes and Other Writings
 ---
