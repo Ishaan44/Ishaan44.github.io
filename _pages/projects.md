@@ -1,62 +1,44 @@
 ---
 layout: page
 title: Math
-permalink: /projects/
-description: Check out the details of the math I have done so far including projects, notes and other writings.
+permalink: /math/
+description: Overview of my projects, research, and writings in mathematics.
 nav: true
 nav_order: 3
-display_categories: [Projects, Notes and other writings]
-horizontal: false
 ---
-<div class="projects">
 
-  <!-- Projects Section -->
-  <h2><strong>Projects</strong></h2>
-  <ol>
-    {% assign sorted_projects = site.projects | where: "category", "Projects" | sort: "importance" %}
-    {% for project in sorted_projects %}
-      <li>
-        <div class="project-item">
-          <h3>{{ project.title }}</h3>
-          <p>{{ project.description | truncatewords: 20 }}</p>
-          <a href="{{ project.url }}" class="read-more">Read more</a>
-        </div>
-      </li>
-    {% endfor %}
-  </ol>
+### Projects and Research
 
-  <hr>
+- **Percolation on Hyperbolic Graphs**
+  This project was supported by the S.N. Bhatt Memorial Excellence Fellowship Program at the International Centre for Theoretical Sciences, Bangalore. I worked under the guidance of Prof. Riddhipratim Basu and Prof. Anirban Basak. My report could be found [here](https://ishaan44.github.io/assets/pdf/ICTS_report.pdf). The slides from my talk at ICTS can be 
+  found [here](https://ishaan44.github.io/assets/pdf/SN_Bhatt_Presentation.pdf).
 
-  <!-- Research Section -->
-  <h2><strong>Research</strong></h2>
-  <ol>
-    {% assign sorted_research = site.projects | where: "category", "Research" | sort: "importance" %}
-    {% for research in sorted_research %}
-      <li>
-        <div class="research-item">
-          <h3>{{ research.title }}</h3>
-          <p>{{ research.description | truncatewords: 20 }}</p>
-          <a href="{{ research.url }}" class="read-more">Read more</a>
-        </div>
-      </li>
-    {% endfor %}
-  </ol>
+- **[Supercritical Percolation on Nonamenable Graphs]()**
+  - Seminar on Probability Theory. Indian Statistical Institute, Bangalore. Fall 2023.
 
-  <hr>
+- **[Lectures on the Ising and Potts Model](https://ishaan44.github.io/projects/3_project/)**
+  - A comprehensive study of Hugo Duminil Copin's [notes](https://arxiv.org/pdf/1707.00520) on the Ising and Potts model partially guided by Prof. Subhajit Goswami.
 
-  <!-- Notes and Other Writings Section -->
-  <h2><strong>Notes and Other Writings</strong></h2>
-  <ol>
-    {% assign sorted_notes = site.projects | where: "category", "Notes and Other Writings" | sort: "importance" %}
-    {% for note in sorted_notes %}
-      <li>
-        <div class="note-item">
-          <h3>{{ note.title }}</h3>
-          <p>{{ note.description | truncatewords: 20 }}</p>
-          <a href="{{ note.url }}" class="read-more">Read more</a>
-        </div>
-      </li>
-    {% endfor %}
-  </ol>
+- **[Percolation Thresholds under Coverings](https://ishaan44.github.io/projects/4_project/)**
+  - Part of VSRP 2024, under the guidance of Prof. Subhajit Goswami. 
+   
+- **[Percolation of Words](https://ishaan44.github.io/projects/5_project/)**
+  - Ongoing research on site percolation on non-amenable graphs.  
+  
+- **Extreme Value Theory**
+  - Summer 2022 under Prof. Antar Bandyopadhyay at ISI, Delhi.
+  
 
-</div>
+
+### Notes and Other Writings
+
+- **[Percolation Theory (MStat 2nd Year)](https://ishaan44.github.io/projects/10_project/)**: Notes for Prof. Rahul Roy's course at ISI, Delhi.
+- **[Part III Courses](https://ishaan44.github.io/projects/11_project/)**: Notes and additional resources for the Part III courses I took at Cambridge.
+
+- **Biautomaticity of Coxeter Groups**: 
+  This article was a result of the conference on Geometry in Groups at ICTS, Bangalore. (29th July- 2nd Aug). This was a very last moment to decision to spend one week at the beautiful ICTS campus doing geometric group theory and probability. Below are the notes for the talks that I attended. My main takeaway from the conference was Coxeter groups and their countless symmetries, for instance Piotr's talk on biautomaticity of coxeter groups was my personal favourite.  I also really enjoyed learning more about boundaries of hyperbolic spaces and the property (T). 
+
+  My notes on biautomaticity of Coxeter groups can be found [here]. $$\textbf{*}$$Any mistakes in the notes are mine only!
+
+
+- **Percolation theory**: A collection of key mathematical proofs.
