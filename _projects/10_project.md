@@ -40,8 +40,9 @@ For Continuum percolation:
 - [Lecture 9, 27th August](https://ishaan44.github.io/assets/pdf/Lecture9_MS2.pdf):Zhang's argument and proof of Kesten's theorem about the critical point of $$\mathbb{Z}^2.$$ 
 - [Lecture 10, 3rd September](https://ishaan44.github.io/assets/pdf/Lecture10_MS2.pdf): Decision trees, differential inequalities the OSSS inequality proof of subcritical sharpness. 
 - [Lecture 11, 5th September](https://ishaan44.github.io/assets/pdf/Lecture11_MS2.pdf): Proof of OSSS inequality. 
-- [Lecture 12, 19th September](https://ishaan44.github.io/assets/pdf/Lecture12_MS2.pdf): Defining the correlation length $$\xi(P)$$. Connection to $$\phi(p)$$. Proof that $$\xi(p) > \chi(p).$$
+- [Lecture 12, 19th September](https://ishaan44.github.io/assets/pdf/Lecture12_MS2.pdf): Defining the correlation length $$\xi(p)$$. Connection to $$\phi(p)$$. Proof that $$\xi(p) > \chi(p).$$
+- [Lecture 12, 19th September](https://ishaan44.github.io/assets/pdf/Lecture13_MS2.pdf): Percolation on subsets of $$\mathbb{Z}^2$$.
 
-
-### Assignments
-[1](https://ishaan44.github.io/assets/pdf/Assignment_1.pdf), [2](https://ishaan44.github.io/assets/pdf/Assignment_2.pdf), [3](https://ishaan44.github.io/assets/pdf/Assignment_3.pdf)
+### Exercises
+- Midsem exam: 
+- Random: [1](https://ishaan44.github.io/assets/pdf/Assignment_1.pdf), [2](https://ishaan44.github.io/assets/pdf/Assignment_2.pdf), [3](https://ishaan44.github.io/assets/pdf/Assignment_3.pdf)

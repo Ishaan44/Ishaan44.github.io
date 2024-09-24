@@ -19,6 +19,6 @@ Hi! I am Ishaan Bhadoo. Starting this fall I will be a graduate student at Trini
 
 My CV can be found [here](https://ishaan44.github.io/assets/pdf/CV.pdf). You can reach out to me via: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib530@cam.ac.uk). 
 
-Click [$$\textbf{here}$$](https://ishaan44.github.io/projects/) to check out the details of the projects and notes I’ve worked on so far.
+Click [$$\textbf{here}$$](https://ishaan44.github.io/math/) to check out the details of the projects and notes I’ve worked on so far.
 
 
