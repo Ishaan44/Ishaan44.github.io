@@ -51,7 +51,7 @@ My CV can be found [here](https://ishaan44.github.io/assets/pdf/CV.pdf). Email: 
 
 
 ### Teaching
-Every year ISI Bangalore holds the Undergraduate Directed Group Reading Program([UDGRP])(https://mathclubisib.github.io/activities/udgrp/) during the summers (and sometimes during the winters). During my time there, I participated as a mentor on the following projects:
+Every year ISI Bangalore holds the Undergraduate Directed Group Reading Program([UDGRP](https://mathclubisib.github.io/activities/udgrp/)) during the summers (and sometimes during the winters). During my time there, I participated as a mentor on the following projects:
 
  -  [Martingale theory and its Applications (Summer 2023)](https://ishaan44.github.io/projects/15_project/) 
 -   [Field and Galois Theory (Winter 2022)](https://ishaan44.github.io/projects/15_project/)
