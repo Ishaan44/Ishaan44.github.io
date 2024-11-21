@@ -15,9 +15,9 @@ My CV can be found [here](https://ishaan44.github.io/assets/pdf/CV.pdf). Email: 
 
 - **Percolation on Hyperbolic Graphs** Uniqueness conjecture for hyperbolic graphs. A  survey of the uniqueness conjecture in the hyperbolic setting following ([paper](https://arxiv.org/abs/1804.10191)) can be found [here](https://ishaan44.github.io/assets/pdf/ICTS_report.pdf). The slides from my talk at ICTS can be found [here](https://ishaan44.github.io/assets/pdf/SN_Bhatt_Presentation.pdf).
 
-- **Supercritical Percolation on Nonamenable Graphs** Seminar on Probability Theory. Indian Statistical Institute, Bangalore. Fall 2023. My handwritten notes can be found [here]()
+- **Supercritical Percolation on Nonamenable Graphs** Seminar on Probability Theory. Indian Statistical Institute, Bangalore. Fall 2023. My handwritten notes can be found [here](https://ishaan44.github.io/assets/pdf/SupercriticalNA.pdf).
 
-- **Lectures on the Ising and Potts Model**  A comprehensive study of Hugo Duminil Copin's [notes](https://arxiv.org/pdf/1707.00520) on the Ising and Potts model partially guided by Prof. Subhajit Goswami. Click [here]((https://ishaan44.github.io/projects/3_project/)) for solutions to exercises (incomplete)
+- **Lectures on the Ising and Potts Model**  A comprehensive study of Hugo Duminil Copin's [notes](https://arxiv.org/pdf/1707.00520) on the Ising and Potts model partially guided by Prof. Subhajit Goswami. Click [here](https://ishaan44.github.io/projects/3_project/) for solutions to exercises (incomplete)
 
 - **[Percolation Thresholds under Coverings](https://ishaan44.github.io/projects/4_project/)**
 
@@ -35,4 +35,26 @@ My CV can be found [here](https://ishaan44.github.io/assets/pdf/CV.pdf). Email: 
 - **Aizenman-Kesten-Newman proof of uniqueness of infinite cluster**: AKN proof of uniqueness for amenable graphs. [[pdf]](https://ishaan44.github.io/assets/pdf/AKN_Uniqueness.pdf).
 
 
+### Talks
 
+- Part III Student Seminar, University of Cambridge, December 2024: Title - Percolation of Words
+ 
+- Tata Institute of Fundamental Reasearch, Mumbai, June 2024: Title - Percolation under coverings. [[Slides]](https://ishaan44.github.io/assets/pdf/VSRP_Presentation.pdf) 
+
+- Mathematics club, ISI Bangalore, September 2023:  Title - Percolation at criticality for graphs with exponential growth. [[Video]](https://www.youtube.com/watch?v=ooXLCTn-qss) [[Slides]](https://drive.google.com/file/d/1pldgkxBYNkibH5QOASASvixz1ciyYAKk/view)
+
+- International Centre for Theoretical Science, Bangalore, July 2023: Title:  Percolation on Hyperbolic Graphs. [[Pdf]](https://ishaan44.github.io/assets/pdf/ICTS_report.pdf) [[Slides]](https://ishaan44.github.io/assets/pdf/SN_Bhatt_Presentation.pdf) 
+
+- ISI-SNU Student Talk Series, Shiv Nadar University, New Delhi, October 2023: Title - Conformal Invariance in 2D percolation. [[Slides]](https://ishaan44.github.io/assets/pdf/SNU_Talk.pdf)
+
+
+
+
+### Teaching
+Every year ISI Bangalore holds the Undergraduate Directed Group Reading Program([UDGRP])(https://mathclubisib.github.io/activities/udgrp/) during the summers (and sometimes during the winters). During my time there, I participated as a mentor on the following projects:
+
+ -  [Martingale theory and its Applications (Summer 2023)](https://ishaan44.github.io/projects/15_project/) 
+-   [Field and Galois Theory (Winter 2022)](https://ishaan44.github.io/projects/15_project/)
+
+
+I also participated as student learning the basics of [Measure theory and Representation Theory](https://mathclubisib.github.io/activities/udgrp/summer_2022/).
