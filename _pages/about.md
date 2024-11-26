@@ -11,33 +11,33 @@ subtitle:
 My CV can be found [here](https://ishaan44.github.io/assets/pdf/CV.pdf). Email: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib530@cam.ac.uk). 
 
 
-### Notes
+### Ongoing Research
+- **Percolation of Words** : Ongoing research on the problem of percolation of words. Our progress is documented [here](https://ishaan44.github.io/assets/pdf/Percolation_of_Words%20(1).pdf).
 
-- **Percolation on Hyperbolic Graphs** Uniqueness conjecture for hyperbolic graphs. A  survey of the uniqueness conjecture in the hyperbolic setting following ([paper](https://arxiv.org/abs/1804.10191)) can be found [here](https://ishaan44.github.io/assets/pdf/ICTS_report.pdf). The slides from my talk at ICTS can be found [here](https://ishaan44.github.io/assets/pdf/SN_Bhatt_Presentation.pdf).
+### Writings
+- **Percolation Thresholds under Coverings** A study of percolation thresholds under coverings. Study of the tecnique of enhancements and other interpolation schemes in percolation. This technique can then be used to show that trees are the unique minimizers of the critical point among quasi-transitive regular graphs. [[slides]](https://ishaan44.github.io/assets/pdf/VSRP_Presentation.pdf) [[pdf]](https://ishaan44.github.io/assets/pdf/Bounds.pdf).
+ 
+- **Percolation on Hyperbolic Graphs** A study of the proof of the uniqueness conjecture for hyperbolic graphs. A  survey of the uniqueness conjecture in the hyperbolic setting following ([paper](https://arxiv.org/abs/1804.10191)) can be found [here](https://ishaan44.github.io/assets/pdf/ICTS_report.pdf). The slides from my talk at ICTS can be found [here](https://ishaan44.github.io/assets/pdf/SN_Bhatt_Presentation.pdf).
+
 
 - **Supercritical Percolation on Nonamenable Graphs** Seminar on Probability Theory. Indian Statistical Institute, Bangalore. Fall 2023. My handwritten notes can be found [here](https://ishaan44.github.io/assets/pdf/SupercriticalNA.pdf).
 
 - **Lectures on the Ising and Potts Model**  A comprehensive study of Hugo Duminil Copin's [notes](https://arxiv.org/pdf/1707.00520) on the Ising and Potts model partially guided by Prof. Subhajit Goswami. Click [here](https://ishaan44.github.io/projects/3_project/) for solutions to exercises (incomplete)
 
-- **[Percolation Thresholds under Coverings](https://ishaan44.github.io/projects/4_project/)**
+- **Biautomaticity of Coxeter Groups**: 
+  This article was a result of the conference on Geometry in Groups at ICTS, Bangalore. (29th July- 2nd Aug). Notes for Piotr's talk on biautomaticity of Coxeter groups - [[pdf](https://ishaan44.github.io/assets/pdf/Biautomaticity.pdf)]. $$\textbf{*}$$Any mistakes in the notes are mine only!
 
+- **Aizenman-Kesten-Newman proof of uniqueness of infinite cluster**: AKN proof of uniqueness for amenable graphs. [[pdf]](https://ishaan44.github.io/assets/pdf/AKN_Uniqueness.pdf).
 
-- **[Percolation of Words](https://ishaan44.github.io/projects/5_project/)** : Ongoing research on site percolation on non-amenable graphs.  
-  
 - **Percolation Theory (MStat 2nd Year)**: Notes for Prof. Rahul Roy's course at ISI, Delhi. [click]((https://ishaan44.github.io/projects/10_project/)).
 
 - **Part III Courses**: Click [here](https://ishaan44.github.io/projects/11_project/) for notes and additional resources for my Part III courses.
 
-- **Biautomaticity of Coxeter Groups**: 
-  This article was a result of the conference on Geometry in Groups at ICTS, Bangalore. (29th July- 2nd Aug). Notes for Piotr's talk on biautomaticity of Coxeter groups - [[pdf](https://ishaan44.github.io/assets/pdf/Biautomaticity.pdf)]. $$\textbf{*}$$Any mistakes in the notes are mine only!
-
-
-- **Aizenman-Kesten-Newman proof of uniqueness of infinite cluster**: AKN proof of uniqueness for amenable graphs. [[pdf]](https://ishaan44.github.io/assets/pdf/AKN_Uniqueness.pdf).
 
 
 ### Talks
 
-- Part III Student Seminar, University of Cambridge, December 2024: Title - Percolation of Words
+- Part III Student Seminar, University of Cambridge, December 2024: Title - No exceptional words for percolation on trees [[pdf]](https://ishaan44.github.io/assets/pdf/No_exceptional_words_for_percolation_on_quasi_transitive_trees%20(6).pdf)
  
 - Tata Institute of Fundamental Reasearch, Mumbai, June 2024: Title - Percolation under coverings. [[Slides]](https://ishaan44.github.io/assets/pdf/VSRP_Presentation.pdf) 
 
@@ -51,10 +51,10 @@ My CV can be found [here](https://ishaan44.github.io/assets/pdf/CV.pdf). Email: 
 
 
 ### Teaching
-Every year ISI Bangalore holds the Undergraduate Directed Group Reading Program([UDGRP](https://mathclubisib.github.io/activities/udgrp/)) during the summers (and sometimes during the winters). During my time there, I participated as a mentor on the following projects:
+Every year ISI Bangalore holds the Undergraduate Directed Group Reading Program ([UDGRP](https://mathclubisib.github.io/activities/udgrp/)) during the summers (and sometimes during the winters). During my time there, I participated as a mentor on the following projects:
 
  -  [Martingale theory and its Applications (Summer 2023)](https://ishaan44.github.io/projects/15_project/) 
 -   [Field and Galois Theory (Winter 2022)](https://ishaan44.github.io/projects/15_project/)
 
 
-I also participated as student learning the basics of [Measure theory and Representation Theory](https://mathclubisib.github.io/activities/udgrp/summer_2022/).
+During summer 2022, I participated as student learning [Measure theory and Representation Theory](https://mathclubisib.github.io/activities/udgrp/summer_2022/).
