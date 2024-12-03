@@ -7,9 +7,9 @@ category: Notes and Other Writings
 ---
 ### $$\textbf{Michaelmas Term}$$
 - [Mixing times of Markov Chains](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Probability/Mixing_times_of_Markov_chains_Sarkovic.pdf) (24 Credits)
-  - Notes: 
+  - Notes: [[pdf]]()
 - [Advanced Probability](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Probability/Advanced%20Probability_Jason_Miller.pdf) (24 Credits)
-  - Notes: 
+  - Notes: [[]]()
 - [Information Theory](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Information%20and%20Finance/Information_Theory_Kontoyiannis.pdf) (16 Credits)
   - Notes: 
 - [Analysis of partial differential equations](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Analysis%20and%20PDEs/Analysis%20of%20PDE_Cl%C3%A9ment%20Mouhot_2425.pdf) (24 Credits)
