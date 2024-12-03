@@ -12,12 +12,12 @@ My CV can be found [here](https://ishaan44.github.io/assets/pdf/CV.pdf). Email: 
 
 
 ### Ongoing Research
-- **Percolation of Words** : Ongoing research on the problem of percolation of words. Our progress is documented [here](https://ishaan44.github.io/assets/pdf/Percolation_of_Words%20(1).pdf).
+- **Percolation of Words** : Ongoing research on the problem of percolation of words. Our progress is documented [here](https://ishaan44.github.io/assets/pdf/Percolation_of_Words.pdf).
    - No exceptional words for percolation on trees: Generalising a theorem of Kesten-Benjamini for periodic trees we proved that all words are seen in a locally finite tree. [[pdf]]()
-   - Solution to the truncation problem in the non-amenable setting. [[pp 6-8, pdf]]()    
+   - Solution to the truncation problem in the non-amenable setting. [[pp 6-7, pdf]]((https://ishaan44.github.io/assets/pdf/Percolation_of_Words.pdf))    
 
 ### Writings
-- **Percolation Thresholds under Coverings** A study of percolation thresholds under coverings. Study of the tecnique of enhancements and other interpolation schemes in percolation. This technique can then be used to show that trees are the unique minimizers of the critical point among quasi-transitive regular graphs. [[slides]](https://ishaan44.github.io/assets/pdf/VSRP_Presentation.pdf) [[pdf]](https://ishaan44.github.io/assets/pdf/Bounds.pdf).
+- **Percolation Thresholds under Coverings** A study of percolation thresholds under coverings. Study of the tecnique of enhancements and other interpolation schemes in percolation. This technique can then be used to show that trees are the unique minimizers of the critical point among quasi-transitive regular graphs. [[slides]](https://ishaan44.github.io/assets/pdf/VSRP_Presentation.pdf) [[https://arxiv.org/abs/2412.00635]](https://arxiv.org/abs/2412.00635).
  
 - **Percolation on Hyperbolic Graphs** A study of the proof of the uniqueness conjecture for hyperbolic graphs. A  survey of the uniqueness conjecture in the hyperbolic setting following ([paper](https://arxiv.org/abs/1804.10191)) can be found [here](https://ishaan44.github.io/assets/pdf/ICTS_report.pdf). The slides from my talk at ICTS can be found [here](https://ishaan44.github.io/assets/pdf/SN_Bhatt_Presentation.pdf).
 
