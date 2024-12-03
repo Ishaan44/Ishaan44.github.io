@@ -33,7 +33,7 @@ My CV can be found [here](https://ishaan44.github.io/assets/pdf/CV.pdf). Email: 
 - **Biautomaticity of Coxeter Groups**: 
   This article was a result of the conference on Geometry in Groups at ICTS, Bangalore. (29th July- 2nd Aug). Notes for Piotr's talk on biautomaticity of Coxeter groups - [[pdf](https://ishaan44.github.io/assets/pdf/Biautomaticity.pdf)]. $$\textbf{*}$$Any mistakes in the notes are mine only!
 
-- **Percolation Theory (MStat 2nd Year)**: Notes for Prof. Rahul Roy's course at ISI, Delhi. [click]((https://ishaan44.github.io/projects/10_project/)).
+- **Percolation Theory (MStat 2nd Year)**: Notes for Prof. Rahul Roy's course at ISI, Delhi. [click](https://ishaan44.github.io/projects/10_project/).
 
 - **Part III Courses**: Click [here](https://ishaan44.github.io/projects/11_project/) for notes and additional resources for my Part III courses.
 
