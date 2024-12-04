@@ -35,7 +35,6 @@ My CV can be found [here](https://ishaan44.github.io/assets/pdf/CV.pdf). Email: 
 
 - **Percolation Theory (MStat 2nd Year)**: Notes for Prof. Rahul Roy's course at ISI, Delhi. [click](https://ishaan44.github.io/projects/10_project/).
 
-- **Part III Courses**: Click [here](https://ishaan44.github.io/projects/11_project/) for notes and additional resources for my Part III courses.
 
 
 
