@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Percolation Theory (MStat 2nd Year)
-description: Teaching
+title: Teaching
+description: 
 importance: 4
 category: Notes and Other Writings
 ---
