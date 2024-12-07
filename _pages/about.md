@@ -16,7 +16,7 @@ Email: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib
    - No exceptional words for percolation on trees: Generalising a theorem of Kesten-Benjamini for periodic trees we proved that all words are seen in a locally finite tree. [[pdf]](https://ishaan44.github.io/assets/pdf/Tree_Proof.pdf)
    - Solution to the truncation problem in the non-amenable setting. [[pp 6-7, pdf]](https://ishaan44.github.io/assets/pdf/Percolation_of_Words.pdf)
         
--  **Critical Threshold for regular graphs**: [https://arxiv.org/abs/2412.00635](https://arxiv.org/abs/2412.0063)
+-  **Critical Threshold for regular graphs**: [https://arxiv.org/abs/2412.00635](https://arxiv.org/abs/2412.00635)
   
 ### Writings
 - **Percolation Thresholds under Coverings**: A study of percolation thresholds under coverings. Study of the tecnique of enhancements and other interpolation schemes in percolation. This technique can then be used to show that trees are the unique minimizers of the critical point among quasi-transitive regular graphs. Presentation at TIFR: [[slides]](https://ishaan44.github.io/assets/pdf/VSRP_Presentation.pdf). Article: [[pdf]](https://arxiv.org/abs/2412.00635).
