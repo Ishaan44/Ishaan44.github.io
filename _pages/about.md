@@ -27,14 +27,12 @@ Email: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib
 
 - **Supercritical Percolation on Nonamenable Graphs** Seminar on Probability Theory. Indian Statistical Institute, Bangalore. Fall 2023. My handwritten notes can be found [here](https://ishaan44.github.io/assets/pdf/SupercriticalNA.pdf).
 
-- **Lectures on the Ising and Potts Model**  A comprehensive study of Hugo Duminil Copin's [notes](https://arxiv.org/pdf/1707.00520) on the Ising and Potts model partially guided by Prof. Subhajit Goswami. Click [here](https://ishaan44.github.io/projects/3_project/) for solutions to exercises (incomplete)
-
 - **Biautomaticity of Coxeter Groups**: 
   This article was a result of the conference on Geometry in Groups at ICTS, Bangalore. (29th July- 2nd Aug). Notes for Piotr's talk on biautomaticity of Coxeter groups - [[pdf](https://ishaan44.github.io/assets/pdf/Biautomaticity.pdf)]. $$\textbf{*}$$Any mistakes in the notes are mine only!
 
-- **Percolation Theory (MStat 2nd Year)**: Notes for Prof. Rahul Roy's course at ISI, Delhi. [click](https://ishaan44.github.io/projects/10_project/).
+- **Percolation Theory (MStat 2nd Year)**: Notes for Prof. Rahul Roy's course at ISI, Delhi. [click](https://ishaan44.github.io/projects/15_project/).
 
-
+- **Lectures on the Ising and Potts Model**  A comprehensive study of Hugo Duminil Copin's [notes](https://arxiv.org/pdf/1707.00520) on the Ising and Potts model partially guided by Prof. Subhajit Goswami. Click [here](https://ishaan44.github.io/projects/3_project/) for solutions to exercises (incomplete)
 
 
 ### Talks
