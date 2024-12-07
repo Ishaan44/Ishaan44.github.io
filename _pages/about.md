@@ -7,8 +7,7 @@ subtitle:
 
  I am  a  Master's student ([Part III](https://www.maths.cam.ac.uk/postgrad/part-iii/prospective.html)) in Mathematics at [Trinity College](https://www.trin.cam.ac.uk/), University of Cambridge. I am interested in probability theory, more specifically discrete probability and percolation theory. I am also interested in the countless connections probability has to other areas particularly group theory and combinatorics. 
 
-
-My CV can be found [here](https://ishaan44.github.io/assets/pdf/CV.pdf). Email: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib530@cam.ac.uk). 
+Email: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib530@cam.ac.uk). 
 
 
 ### Research
