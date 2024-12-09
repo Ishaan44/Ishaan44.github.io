@@ -21,9 +21,9 @@ Email: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib
 ### Writings
 - **Percolation Thresholds under Coverings**: A study of percolation thresholds under coverings. Study of the tecnique of enhancements and other interpolation schemes in percolation. This technique can then be used to show that trees are the unique minimizers of the critical point among quasi-transitive regular graphs. Presentation at TIFR: [[slides]](https://ishaan44.github.io/assets/pdf/VSRP_Presentation.pdf). Article: [[pdf]](https://arxiv.org/abs/2412.00635).
  
-- **Percolation on Hyperbolic Graphs** A study of the proof of the uniqueness conjecture for hyperbolic graphs. My survey of the uniqueness conjecture in the hyperbolic setting following ([paper](https://arxiv.org/abs/1804.10191)) can be found [here](https://ishaan44.github.io/assets/pdf/ICTS_report.pdf). The slides from my talk at ICTS can be found [here](https://ishaan44.github.io/assets/pdf/SN_Bhatt_Presentation.pdf).
+- **Percolation on Hyperbolic Graphs** A study of the proof of the uniqueness conjecture for hyperbolic graphs. My survey of the uniqueness conjecture in the hyperbolic setting following ([paper](https://arxiv.org/abs/1804.10191)) can be found here [[report]](https://ishaan44.github.io/assets/pdf/ICTS_report.pdf). The slides from my talk at ICTS can be found here [slides](https://ishaan44.github.io/assets/pdf/SN_Bhatt_Presentation.pdf).
 
-- **Aizenman-Kesten-Newman proof of uniqueness of infinite cluster**: AKN proof of uniqueness for amenable graphs. [[pdf]](https://ishaan44.github.io/assets/pdf/AKN_Uniqueness.pdf).
+- **Aizenman-Kesten-Newman proof of uniqueness of infinite cluster**: AKN proof of uniqueness for amenable graphs [[pdf]](https://ishaan44.github.io/assets/pdf/AKN_Uniqueness.pdf).
 
 - **Supercritical Percolation on Nonamenable Graphs** Seminar on Probability Theory. Indian Statistical Institute, Bangalore. Fall 2023. My handwritten notes can be found [here](https://ishaan44.github.io/assets/pdf/SupercriticalNA.pdf).
 
@@ -32,7 +32,7 @@ Email: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib
 - **Biautomaticity of Coxeter Groups**: 
   This article was a result of the conference on Geometry in Groups at ICTS, Bangalore. (29th July- 2nd Aug). Notes for Piotr's talk on biautomaticity of Coxeter groups - [[pdf](https://ishaan44.github.io/assets/pdf/Biautomaticity.pdf)]. $$\textbf{*}$$Any mistakes in the notes are mine only!
 
-- **Percolation Theory (MStat 2nd Year)**: Notes for Prof. Rahul Roy's course at ISI, Delhi. [click](https://ishaan44.github.io/projects/10_project/).
+- **Percolation Theory (MStat 2nd Year)**: Notes for Prof. Rahul Roy's course at ISI, Delhi. [[Lecture Notes]](https://ishaan44.github.io/projects/10_project/).
 
 
 
@@ -43,7 +43,7 @@ Email: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib
  
 - Tata Institute of Fundamental Reasearch, Mumbai, June 2024: Title - Percolation under coverings. [[Slides]](https://ishaan44.github.io/assets/pdf/VSRP_Presentation.pdf) 
 
-- Mathematics club, ISI Bangalore, September 2023:  Title - Percolation at criticality for graphs with exponential growth. [[Video]](https://www.youtube.com/watch?v=ooXLCTn-qss) [[Slides]](https://drive.google.com/file/d/1pldgkxBYNkibH5QOASASvixz1ciyYAKk/view)
+- Mathematics club, ISI Bangalore, September 2023:  Title - Percolation at criticality for graphs with exponential growth. [[Video]](https://www.youtube.com/watch?v=ooXLCTn-qss). [[Slides]](https://drive.google.com/file/d/1pldgkxBYNkibH5QOASASvixz1ciyYAKk/view)
 
 - International Centre for Theoretical Science, Bangalore, July 2023: Title:  Percolation on Hyperbolic Graphs. [[Pdf]](https://ishaan44.github.io/assets/pdf/ICTS_report.pdf) [[Slides]](https://ishaan44.github.io/assets/pdf/SN_Bhatt_Presentation.pdf) 
 
