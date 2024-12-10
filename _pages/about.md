@@ -16,7 +16,7 @@ Email: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib
    - No exceptional words for percolation on trees:
      Generalising a theorem of Kesten-Benjamini for periodic trees we proved that all words are seen in a locally finite tree. [[pdf]](https://ishaan44.github.io/assets/pdf/Tree_Proof.pdf).
    - Solution to the truncation problem in the non-amenable setting. [[pp 6-7, pdf]](https://ishaan44.github.io/assets/pdf/Percolation_of_Words.pdf).
-        
+<div style="margin-top: 5px;"></div>
 -   **Critical Threshold for regular graphs**: [https://arxiv.org/abs/2412.00635](https://arxiv.org/abs/2412.00635)
   
 ### Writings
@@ -43,9 +43,9 @@ Email: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib
 - Tata Institute of Fundamental Research, Mumbai, June 2024: Title - Strict monotonicity of the critical threshold. [[Slides]](https://ishaan44.github.io/assets/pdf/VSRP_Presentation.pdf) 
 
 - Mathematics club, ISI Bangalore, September 2023:  Title - Percolation at criticality for graphs with exponential growth. [[Video]](https://www.youtube.com/watch?v=ooXLCTn-qss). [[Slides]](https://drive.google.com/file/d/1pldgkxBYNkibH5QOASASvixz1ciyYAKk/view)
-    - Description: Presentation of the proof that there is no percolation at criticality for quasi-transitive exponential growth graphs by Tom Hutchcroft. I read the paper [[link]](https:// arxiv.org/abs/1605.05301). 
+    - Description: Presentation of the proof that there is no percolation at criticality for quasi-transitive exponential growth graphs by Tom Hutchcroft. I read the paper [[link]](https://arxiv.org/abs/1605.05301). 
 
-
+<div style="margin-top: 5px;"></div>
 - International Centre for Theoretical Science, Bangalore, July 2023: Title:  Percolation on Hyperbolic Graphs. [[Pdf]](https://ishaan44.github.io/assets/pdf/ICTS_report.pdf) [[Slides]](https://ishaan44.github.io/assets/pdf/SN_Bhatt_Presentation.pdf) 
 
 - ISI-SNU Student Talk Series, Shiv Nadar University, New Delhi, October 2023: Title - Conformal Invariance in 2D percolation. [[Slides]](https://ishaan44.github.io/assets/pdf/SNU_Talk.pdf)
