@@ -19,6 +19,7 @@ Zoom ID: 94809490278. Password: 482380.
 ### References 
 - Percolation - Grimmet
 - Percolation - Bollobas and Riordan
+ 
 ### NOTES:
 
 - [Lecture 1, 25th July](https://ishaan44.github.io/assets/pdf/Lecture1_MS2.pdf): Introduction, Comparison with the random walk, definition of $$p_c(d)$$, monotonicity of $$\theta(p)$$.
