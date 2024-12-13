@@ -5,12 +5,15 @@ description: Part III Description
 importance: 4
 category: Notes and Other Writings
 ---
+
+Click on the courses for description of courses. (* denotes courses for examination)
 ### $$\textbf{(Fall Semester) Michaelmas Term}$$
-- [Mixing times of Markov Chains](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Probability/Mixing_times_of_Markov_chains_Sarkovic.pdf) (24 Credits)
 
-- [Advanced Probability](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Probability/Advanced%20Probability_Jason_Miller.pdf) (24 Credits)
+- [Advanced Probability*](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Probability/Advanced%20Probability_Jason_Miller.pdf) (24 Credits)
 
-- [Information Theory](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Information%20and%20Finance/Information_Theory_Kontoyiannis.pdf) (16 Credits)
+- [Mixing times of Markov Chains*](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Probability/Mixing_times_of_Markov_chains_Sarkovic.pdf) (24 Credits)
+ 
+- [Information Theory*](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Information%20and%20Finance/Information_Theory_Kontoyiannis.pdf) (16 Credits)
  
 - [Analysis of partial differential equations](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Analysis%20and%20PDEs/Analysis%20of%20PDE_Cl%C3%A9ment%20Mouhot_2425.pdf) (24 Credits)
 
@@ -25,7 +28,7 @@ category: Notes and Other Writings
 
 - [Stochastic Calculus*](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Information%20and%20Finance/StochasticCalculus_Tehranchi.pdf) (24 Credits)
  
-- [Concentration Inequalities](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Information%20and%20Finance/Concentration_Inequalities_Gavalakis.pdf) (16 Credits)
+- [Concentration Inequalities*](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Information%20and%20Finance/Concentration_Inequalities_Gavalakis.pdf) (16 Credits)
 
 - [Entropy methods in combinatorics](https://www.maths.cam.ac.uk/postgrad/part-iii/files/GtC/Combinatorics/Entropy%20Methods%20in%20Combinatorics%20_William_Timothy_Gowers.pdf) (16 Credits)
  
