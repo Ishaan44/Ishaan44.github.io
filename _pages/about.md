@@ -34,7 +34,6 @@ Email: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib
 
 - **Percolation Theory (MStat 2nd Year):** Notes for Prof. Rahul Roy's course at ISI, Delhi. [[Lecture Notes]](https://ishaan44.github.io/projects/15_project/).
 
-- **Lectures on the Ising and Potts Model:**  A comprehensive study of Hugo Duminil Copin's [notes](https://arxiv.org/pdf/1707.00520) on the Ising and Potts model partially guided by Prof. Subhajit Goswami. The notes covered several important techniques such as the OSSS inequality and the method of random currents. Click [[here]](https://ishaan44.github.io/projects/3_project/) for solutions to exercises (incomplete).
 
 - **Part III Courses:**  Description, notes and other resources for my part III courses. [[Link]](https://ishaan44.github.io/projects/11_project/)
 
