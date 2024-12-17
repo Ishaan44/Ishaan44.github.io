@@ -4,6 +4,15 @@ title: Home
 permalink: /
 subtitle: 
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7RJ3HTHB70"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7RJ3HTHB70');
+</script>
 
 I am  a  Master's student ([Part III](https://www.maths.cam.ac.uk/postgrad/part-iii/prospective.html)) in Mathematics at [Trinity College](https://www.trin.cam.ac.uk/), University of Cambridge. I am interested in probability theory, more specifically discrete probability and percolation theory. I am also interested in the countless connections probability has to other areas particularly group theory and combinatorics.
 
