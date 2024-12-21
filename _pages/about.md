@@ -35,9 +35,7 @@ Email: [ishaanbhadoo@gmail.com](ishaanbhadoo8@gmail.com) or [ib530@cam.ac.uk](ib
 - **Percolation on Hyperbolic Graphs:** A study of the proof of the uniqueness conjecture for hyperbolic graphs. My survey of the uniqueness conjecture in the hyperbolic setting following ([paper](https://arxiv.org/abs/1804.10191)) can be found here [[report]](https://ishaan44.github.io/assets/pdf/ICTS_report.pdf). The slides from my talk at ICTS can be found here [[slides]](https://ishaan44.github.io/assets/pdf/SN_Bhatt_Presentation.pdf).
 
 - **Aizenman-Kesten-Newman proof of uniqueness of infinite cluster:** AKN proof of uniqueness for amenable graphs [[pdf]](https://ishaan44.github.io/assets/pdf/AKN_Uniqueness.pdf).
-
-- **Supercritical Percolation on Nonamenable Graphs:** Seminar on Probability Theory. Indian Statistical Institute, Bangalore. Fall 2023. My handwritten notes can be found here [[pdf]](https://ishaan44.github.io/assets/pdf/SupercriticalNA.pdf).
-
+ 
 - **Biautomaticity of Coxeter Groups:** 
   This article was a result of the conference on Geometry in Groups at ICTS, Bangalore. (29th July- 2nd Aug). Notes for Piotr's talk on biautomaticity of Coxeter groups - [[pdf](https://ishaan44.github.io/assets/pdf/Biautomaticity.pdf)]. $$\textbf{*}$$Any mistakes in the notes are mine only!
 
