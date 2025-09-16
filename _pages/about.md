@@ -14,9 +14,8 @@ subtitle:
   gtag('config', 'G-7RJ3HTHB70');
 </script>
 
-# Ishaan Bhadoo
 
-**I am Mathematics PhD student at the University of Cambridge working on Probability Theory. I am funded by the Gates Cambridge scholarship. My advisor is Professor Wendelin Werner. 
+I am a Mathematics PhD student at the University of Cambridge working on Probability Theory. I am funded by the Gates Cambridge scholarship. My advisor is Professor Wendelin Werner. 
 
 Email: [ishaanbhadoo@gmail.com](mailto:ishaanbhadoo@gmail.com) · [ib530@cam.ac.uk](mailto:ib530@cam.ac.uk)
 
@@ -28,7 +27,7 @@ Percolation; random walks and cover/meeting times; Gaussian Free Field; loop sou
 ---
 
 ## Short bio
-- B. Math **Indian Statistical Institute, Bangalore** (2021-2024)
+- B. Math, **Indian Statistical Institute, Bangalore** (2021-2024)
 - Part III (Mathematical Tripos), **Trinity College, Cambridge** (2024–25).  
 - PhD (from Oct 2025), **University of Cambridge**.
 
@@ -36,6 +35,7 @@ Percolation; random walks and cover/meeting times; Gaussian Free Field; loop sou
 
 ## Preprints & publications
 - **Critical Threshold for Regular Graphs** — [[arXiv:2412.00635]](https://arxiv.org/abs/2412.00635).
+
 ---
 
 ## Ongoing & recent work
