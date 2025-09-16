@@ -17,7 +17,6 @@ subtitle:
 # Ishaan Bhadoo
 
 **I am Mathematics PhD student at the University of Cambridge working on Probability Theory. I am funded by the Gates Cambridge scholarship. My advisor is Professor Wendelin Werner. 
-(supervisor: **Prof. Wendelin Werner**)
 
 Email: [ishaanbhadoo@gmail.com](mailto:ishaanbhadoo@gmail.com) · [ib530@cam.ac.uk](mailto:ib530@cam.ac.uk)
 
