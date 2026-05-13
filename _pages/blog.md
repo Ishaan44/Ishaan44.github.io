@@ -1,30 +1,39 @@
 ---
-layout: page
+layout: clean
 title: Blog
 permalink: /blog/
-nav: true
-nav_order: 4
 ---
 
-Occasional posts on probability, mathematics, and things I am trying to understand.
+## Welcome to my blog page!
+
+Here you will find some of my thoughts on topics in mathematics and beyond that interest me at any given time.
+
+# Blog Posts
 
 {% if site.posts.size > 0 %}
 
-{% assign posts = site.posts | sort: "date" | reverse %}
-{% for post in posts %}
+{% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%B, %Y'" %}
 
-## [{{ post.title }}]({{ post.url | relative_url }})
+{% for month in posts_by_month %}
 
-<span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+## {{ month.name }}
+
+{% for post in month.items %}
+
+### [{{ post.title }}]({{ post.url | relative_url }})
 
 {% if post.description %}
 {{ post.description }}
 {% endif %}
 
+[Read more →]({{ post.url | relative_url }})
+
+{% endfor %}
+
 {% endfor %}
 
 {% else %}
 
-No posts yet.
+No blog posts yet.
 
 {% endif %}
