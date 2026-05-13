@@ -1,31 +1,35 @@
 ---
-layout: page
+layout: clean
 title: Notes
 permalink: /notes/
-nav: true
-nav_order: 3
 ---
 
-This page collects expository notes, working notes, and seminar material. Some of these are polished; others are informal and may change.
+# Notes
 
 ## Research notes
 
-- **Percolation of words**  
-  Joint work with Ritvik Radhakrishnan.  
-  [[PDF]](/assets/pdf/Tree_Proof.pdf) · [[Progress notes]](/assets/pdf/Percolation_of_Words.pdf)
+Miscellaneous notes from projects, talks, and things I am trying to understand.
 
-## Expository notes
+[Percolation of Words: proof notes](/assets/pdf/Tree_Proof.pdf)
 
-Add notes here in this format:
+[Percolation of Words: progress notes](/assets/pdf/Percolation_of_Words.pdf)
 
-- **Title of note**  
-  Short description.  
-  [[PDF]](/assets/pdf/name-of-note.pdf)
+## Cambridge PhD, 2025–
 
-## Seminar and reading notes
+Add PhD reading notes here.
 
-Add seminar notes here in this format:
+Example format:
 
-- **Title of talk or topic**  
-  Date or occasion.  
-  [[PDF]](/assets/pdf/name-of-seminar-note.pdf)
+[Title of note, year](/assets/pdf/name-of-note.pdf)
+
+## Part III Cambridge, 2024–2025
+
+Add Part III notes here.
+
+Example format:
+
+[Advanced Probability notes](/assets/pdf/advanced_probability.pdf)
+
+## Miscellaneous
+
+Add short expository notes, seminar notes, and problem sheets here.
