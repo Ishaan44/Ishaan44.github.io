@@ -22,7 +22,7 @@ Email: [ishaanbhadoo@gmail.com](mailto:ishaanbhadoo@gmail.com) · [ib530@cam.ac.
 Advisor: Professor Wendelin Werner. Funded by the Gates Cambridge Scholarship.
 
 **Trinity College, University of Cambridge**, Master of Advanced Study (Part III) in Mathematics, 2024–2025.<br>
-Thesis: *Random Walk on Dynamical Percolation*. Advisor: Professor Perla Sousi.
+Thesis: _Random Walk on Dynamical Percolation_. Advisor: Professor Perla Sousi.
 
 **Indian Statistical Institute, Bangalore**, Bachelor of Mathematics (Honours), 2021–2024.<br>
 First division with distinction.
@@ -43,7 +43,7 @@ We study whether every infinite binary sequence can be embedded in a site-percol
 
 ### Comparison principle for cover times of random walks on dynamical percolation
 
-[[PDF]](/assets/pdf/CP.pdf) · [[Part III essay]](/assets/pdf/Part_III_Essay.pdf) · [[Essay feedback]](/assets/pdf/PIII_Essay_Feedback_Bhadoo_I.pdf)
+[[PDF]](/assets/pdf/CP.pdf) · [[Part III essay]](/assets/pdf/Part_III_Essay.pdf)
 
 This work grew out of my Part III thesis under the direction of Professor Perla Sousi. It compares cover times for random walk on dynamical percolation with those of simple random walk and resolves Question 1.12 of Hermon and Sousi (2020).
 
