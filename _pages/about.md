@@ -6,7 +6,7 @@ permalink: /
 
 # Welcome to my page
 
-<img src="/assets/img/ishaan.jpg" alt="Ishaan Bhadoo" class="profile-photo">
+<img src="/assets/img/ishaan-profile.jpg" alt="Ishaan Bhadoo" class="profile-photo">
 
 My name is Ishaan Bhadoo, and I am a PhD student in Mathematics at the University of Cambridge. I work in probability theory under the supervision of [Professor Wendelin Werner](https://www.dpmms.cam.ac.uk/~ww295/). I am funded by the Gates Cambridge Scholarship.
 
