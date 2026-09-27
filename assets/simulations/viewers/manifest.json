@@ -18,7 +18,7 @@
       "filename": "loopsoup-3d-N100-c0p5.html",
       "source": "rwls3d/output/loopsoup-3d-N100-c0p5.html",
       "original_bytes": 3857845,
-      "output_bytes": 3856756
+      "output_bytes": 3856770
     },
     {
       "engine": "Plotly 3.6.0",
@@ -35,7 +35,7 @@
       "filename": "loopsoup-3d-N200-c0p5-closest-clusters.html",
       "source": "rwls3d/output/loopsoup-3d-N200-c0p5-closest-clusters.html",
       "original_bytes": 5633386,
-      "output_bytes": 789914
+      "output_bytes": 789928
     },
     {
       "engine": "Plotly 3.6.0",
@@ -52,7 +52,7 @@
       "filename": "loopsoup-3d-N200-c0p5-plotly.html",
       "source": "rwls3d/output/loopsoup-3d-N200-c0p5-plotly.html",
       "original_bytes": 22234244,
-      "output_bytes": 17390588
+      "output_bytes": 17390602
     },
     {
       "engine": "Plotly 3.6.0",
@@ -69,7 +69,7 @@
       "filename": "loopsoup-3d-N200-c0p5-two-clusters.html",
       "source": "rwls3d/output/loopsoup-3d-N200-c0p5-two-clusters.html",
       "original_bytes": 5931870,
-      "output_bytes": 1088343
+      "output_bytes": 1088357
     },
     {
       "engine": "Original Canvas 2D projection",
@@ -88,7 +88,7 @@
       "filename": "loopsoup-3d-N30-c0p5.html",
       "source": "rwls3d/output/loopsoup-3d-N30-c0p5.html",
       "original_bytes": 168848,
-      "output_bytes": 167752
+      "output_bytes": 167766
     },
     {
       "engine": "Original Canvas 2D projection",
@@ -107,7 +107,7 @@
       "filename": "loopsoup-3d-N50-c0p5.html",
       "source": "rwls3d/output/loopsoup-3d-N50-c0p5.html",
       "original_bytes": 900408,
-      "output_bytes": 899311
+      "output_bytes": 899325
     },
     {
       "engine": "Plotly 3.6.0",
@@ -124,7 +124,7 @@
       "filename": "loopsoup-3d-visible-N50-c0p5-plotly.html",
       "source": "rwls3d/output/loopsoup-3d-visible-N50-c0p5-plotly.html",
       "original_bytes": 5099900,
-      "output_bytes": 256230
+      "output_bytes": 256244
     },
     {
       "engine": "Plotly 3.6.0",
@@ -141,7 +141,7 @@
       "filename": "sprinkling-gluing-N100-dustc1.html",
       "source": "rwls3d/output/sprinkling-gluing-N100-dustc1.html",
       "original_bytes": 5417273,
-      "output_bytes": 573750
+      "output_bytes": 573764
     },
     {
       "engine": "Plotly 3.6.0",
@@ -158,7 +158,7 @@
       "filename": "sprinkling-gluing-N100.html",
       "source": "rwls3d/output/sprinkling-gluing-N100.html",
       "original_bytes": 5000175,
-      "output_bytes": 156624
+      "output_bytes": 156638
     },
     {
       "engine": "Plotly 3.6.0",
@@ -175,7 +175,7 @@
       "filename": "sprinkling-gluing-N200-dustc1.html",
       "source": "rwls3d/output/sprinkling-gluing-N200-dustc1.html",
       "original_bytes": 5462119,
-      "output_bytes": 618598
+      "output_bytes": 618612
     },
     {
       "engine": "Plotly 3.6.0",
@@ -192,7 +192,7 @@
       "filename": "sprinkling-gluing-N80.html",
       "source": "rwls3d/output/sprinkling-gluing-N80.html",
       "original_bytes": 4885845,
-      "output_bytes": 42288
+      "output_bytes": 42302
     },
     {
       "engine": "Plotly 3.6.0",
@@ -209,7 +209,7 @@
       "filename": "sprinkling-local-cube-N80.html",
       "source": "rwls3d/output/sprinkling-local-cube-N80.html",
       "original_bytes": 5357049,
-      "output_bytes": 513520
+      "output_bytes": 513534
     }
   ],
   "shared_files": [
@@ -228,5 +228,5 @@
   ],
   "shared_plotly_sha256": "41a395c2d558d13d3655a1ebafaa67a072c2c1ac8c269e0ee67e18c9a137ac99",
   "total_original_bytes": 69948962,
-  "total_output_bytes": 31203636
+  "total_output_bytes": 31203804
 }
