@@ -1,5 +1,5 @@
 {
-  "description": "2D loop-soup scientific exports. GIF sources are represented by H.264 MP4 videos with unchanged frame counts and duration, and lossless first-frame PNG posters.",
+  "description": "2D loop-soup scientific exports. GIF states are held at their original timing in 24 fps H.264 Main level 4.0 MP4 videos, with unchanged animation duration and no motion interpolation. Videos use even dimensions bounded by 1280 pixels, no B frames, and keyframes every five seconds. First-frame PNG posters retain the source resolution losslessly.",
   "assets": [
     {
       "id": "square-soup",
@@ -16,7 +16,13 @@
         "duration_seconds": null,
         "bytes": 265768,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output": "media/square-soup.png",
       "output_media": {
@@ -26,8 +32,15 @@
         "duration_seconds": null,
         "bytes": 265768,
         "codec": "png",
-        "pixel_format": "rgba"
-      }
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
+      },
+      "output_sha256": "0428ca10a746b19f3fd640d03bbed8913bc653b0734d9d5c320ad4e9a16284fc"
     },
     {
       "id": "square-diameter-0p1",
@@ -44,7 +57,13 @@
         "duration_seconds": null,
         "bytes": 211271,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output": "media/square-diameter-0p1.png",
       "output_media": {
@@ -54,8 +73,15 @@
         "duration_seconds": null,
         "bytes": 211271,
         "codec": "png",
-        "pixel_format": "rgba"
-      }
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
+      },
+      "output_sha256": "dcb5732523ab7dbbe6da495c7b72979aa88ef1f6d42193cf14aade59bba35709"
     },
     {
       "id": "square-diameter-0p01",
@@ -72,7 +98,13 @@
         "duration_seconds": null,
         "bytes": 815634,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output": "media/square-diameter-0p01.png",
       "output_media": {
@@ -82,8 +114,15 @@
         "duration_seconds": null,
         "bytes": 815634,
         "codec": "png",
-        "pixel_format": "rgba"
-      }
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
+      },
+      "output_sha256": "36faac6dd0d00899a45b48f10dc47b9abca1777a20c450f6feeb572df466e1a3"
     },
     {
       "id": "square-diameter-0p001",
@@ -100,7 +139,13 @@
         "duration_seconds": null,
         "bytes": 1707459,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output": "media/square-diameter-0p001.png",
       "output_media": {
@@ -110,8 +155,15 @@
         "duration_seconds": null,
         "bytes": 1707459,
         "codec": "png",
-        "pixel_format": "rgba"
-      }
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
+      },
+      "output_sha256": "9b79631ccf83c1cef8942cdb3abaec4cc480a94b5b646ee7ca6e3c14ac1f6deb"
     },
     {
       "id": "square-epsilon-comparison",
@@ -126,7 +178,13 @@
         "duration_seconds": null,
         "bytes": 1808985,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output": "media/square-epsilon-comparison.png",
       "output_media": {
@@ -136,8 +194,15 @@
         "duration_seconds": null,
         "bytes": 1808985,
         "codec": "png",
-        "pixel_format": "rgba"
-      }
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
+      },
+      "output_sha256": "24278b98813faddde657456f7c83534cc21372cac5a66ab0474c2a9125a8b7d9"
     },
     {
       "id": "disk-soup",
@@ -152,7 +217,13 @@
         "duration_seconds": null,
         "bytes": 245902,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output": "media/disk-soup.png",
       "output_media": {
@@ -162,8 +233,15 @@
         "duration_seconds": null,
         "bytes": 245902,
         "codec": "png",
-        "pixel_format": "rgba"
-      }
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
+      },
+      "output_sha256": "6b0dd13feda80f52c43ea96308206dd1b24bb051df186606af71209aa3f2b746"
     },
     {
       "id": "disk-diameter-0p01",
@@ -178,7 +256,13 @@
         "duration_seconds": null,
         "bytes": 691337,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output": "media/disk-diameter-0p01.png",
       "output_media": {
@@ -188,8 +272,15 @@
         "duration_seconds": null,
         "bytes": 691337,
         "codec": "png",
-        "pixel_format": "rgba"
-      }
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
+      },
+      "output_sha256": "29e2b8132345dae56c5521485c2de18dc531f51d26a7960216f6328095c22de3"
     },
     {
       "id": "disk-epsilon-comparison",
@@ -204,7 +295,13 @@
         "duration_seconds": null,
         "bytes": 1722756,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output": "media/disk-epsilon-comparison.png",
       "output_media": {
@@ -214,8 +311,15 @@
         "duration_seconds": null,
         "bytes": 1722756,
         "codec": "png",
-        "pixel_format": "rgba"
-      }
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
+      },
+      "output_sha256": "f749587eb6e2c498c7d49ab926e4072af0137d2e42a56912aeb16a5f30ade6e2"
     },
     {
       "id": "square-rewiring",
@@ -230,7 +334,13 @@
         "duration_seconds": 401.0,
         "bytes": 101657071,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "1/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/square-rewiring.mp4",
       "poster": "media/square-rewiring-poster.png",
@@ -241,16 +351,46 @@
         "duration_seconds": null,
         "bytes": 796344,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
         "width": 960,
         "height": 1020,
-        "frames": 401,
+        "frames": 9624,
         "duration_seconds": 401.0,
-        "bytes": 3752939,
+        "bytes": 50224427,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "b82f2801027dc5ba645e5e2b83a5fc9b9fe59ab96680f64415104858b0b59930",
+      "output_validation": {
+        "timeline_packets": 9624,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 61.63881864326092
+          },
+          {
+            "time_seconds": 200.5,
+            "pixel_standard_deviation": 60.97302200506924
+          },
+          {
+            "time_seconds": 400.9583333333333,
+            "pixel_standard_deviation": 61.13288292292713
+          }
+        ]
       }
     },
     {
@@ -268,7 +408,13 @@
         "duration_seconds": 20.5,
         "bytes": 10198852,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "2/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/square-rewiring-comparison.mp4",
       "poster": "media/square-rewiring-comparison-poster.png",
@@ -279,16 +425,46 @@
         "duration_seconds": null,
         "bytes": 955356,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
-        "width": 1430,
-        "height": 1486,
-        "frames": 41,
+        "width": 1232,
+        "height": 1280,
+        "frames": 492,
         "duration_seconds": 20.5,
-        "bytes": 1493886,
+        "bytes": 3505714,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "f948925d6796e0b0488befa8ec7f9e23f627b5bb5487da02dc3269675df28f05",
+      "output_validation": {
+        "timeline_packets": 492,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 66.63144509310257
+          },
+          {
+            "time_seconds": 10.25,
+            "pixel_standard_deviation": 66.32230633287419
+          },
+          {
+            "time_seconds": 20.458333333333332,
+            "pixel_standard_deviation": 66.24451262925082
+          }
+        ]
       }
     },
     {
@@ -304,7 +480,13 @@
         "duration_seconds": 50.5,
         "bytes": 2089476,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "2/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/square-distance.mp4",
       "poster": "media/square-distance-poster.png",
@@ -315,16 +497,46 @@
         "duration_seconds": null,
         "bytes": 91355,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
-        "width": 1540,
-        "height": 770,
-        "frames": 101,
+        "width": 1280,
+        "height": 640,
+        "frames": 1212,
         "duration_seconds": 50.5,
-        "bytes": 546200,
+        "bytes": 1041177,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "fd8da06d7cd17b8ce267fd698f1bd695e61da112591f38391f773b918e9c2d1d",
+      "output_validation": {
+        "timeline_packets": 1212,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 28.295877971304073
+          },
+          {
+            "time_seconds": 25.25,
+            "pixel_standard_deviation": 27.76065227116921
+          },
+          {
+            "time_seconds": 50.458333333333336,
+            "pixel_standard_deviation": 28.081575919228875
+          }
+        ]
       }
     },
     {
@@ -340,7 +552,13 @@
         "duration_seconds": 20.5,
         "bytes": 4637348,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "2/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/square-distance-comparison.mp4",
       "poster": "media/square-distance-comparison-poster.png",
@@ -351,16 +569,46 @@
         "duration_seconds": null,
         "bytes": 421456,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
-        "width": 1430,
-        "height": 1430,
-        "frames": 41,
+        "width": 1280,
+        "height": 1280,
+        "frames": 492,
         "duration_seconds": 20.5,
-        "bytes": 995612,
+        "bytes": 1995322,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "fd6ed3c8c2959dcdbf2282f443a8e3b7503f51ce8f30b8689d0c9084969f7b58",
+      "output_validation": {
+        "timeline_packets": 492,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 47.4216424129369
+          },
+          {
+            "time_seconds": 10.25,
+            "pixel_standard_deviation": 47.12389660092994
+          },
+          {
+            "time_seconds": 20.458333333333332,
+            "pixel_standard_deviation": 47.26034830597946
+          }
+        ]
       }
     },
     {
@@ -376,7 +624,13 @@
         "duration_seconds": 241.0,
         "bytes": 2951196,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "1/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/square-single-loop.mp4",
       "poster": "media/square-single-loop-poster.png",
@@ -387,16 +641,46 @@
         "duration_seconds": null,
         "bytes": 27848,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
         "width": 840,
         "height": 900,
-        "frames": 241,
+        "frames": 5784,
         "duration_seconds": 241.0,
-        "bytes": 1773912,
+        "bytes": 3878202,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "b1a3938c950400e23851f622bde3802eacdc1b6b88ae313004b5240559113722",
+      "output_validation": {
+        "timeline_packets": 5784,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 32.5622594424958
+          },
+          {
+            "time_seconds": 120.5,
+            "pixel_standard_deviation": 33.178602595236406
+          },
+          {
+            "time_seconds": 240.95833333333334,
+            "pixel_standard_deviation": 33.16463752813948
+          }
+        ]
       }
     },
     {
@@ -412,7 +696,13 @@
         "duration_seconds": 41.0,
         "bytes": 1564612,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "1/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/disk-rewiring.mp4",
       "poster": "media/disk-rewiring-poster.png",
@@ -423,16 +713,46 @@
         "duration_seconds": null,
         "bytes": 197657,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
         "width": 960,
         "height": 960,
-        "frames": 41,
+        "frames": 984,
         "duration_seconds": 41.0,
-        "bytes": 419039,
+        "bytes": 1414997,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "fc7318abaeccff2f0b0aa8fa630036ce412d90217f5a6a210e9703d0ae157425",
+      "output_validation": {
+        "timeline_packets": 984,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 53.66925481929019
+          },
+          {
+            "time_seconds": 20.5,
+            "pixel_standard_deviation": 53.884974643328114
+          },
+          {
+            "time_seconds": 40.958333333333336,
+            "pixel_standard_deviation": 53.7381995579407
+          }
+        ]
       }
     },
     {
@@ -448,7 +768,13 @@
         "duration_seconds": 20.5,
         "bytes": 8329230,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "2/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/disk-rewiring-comparison.mp4",
       "poster": "media/disk-rewiring-comparison-poster.png",
@@ -459,16 +785,46 @@
         "duration_seconds": null,
         "bytes": 582863,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
-        "width": 1430,
-        "height": 1430,
-        "frames": 41,
+        "width": 1280,
+        "height": 1280,
+        "frames": 492,
         "duration_seconds": 20.5,
-        "bytes": 1218949,
+        "bytes": 2531323,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "72b5633562b36329c7c83384d7f9f8b92d2b3acc9bf351e3b35151593b17ddc1",
+      "output_validation": {
+        "timeline_packets": 492,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 58.73799321331839
+          },
+          {
+            "time_seconds": 10.25,
+            "pixel_standard_deviation": 58.61511100734307
+          },
+          {
+            "time_seconds": 20.458333333333332,
+            "pixel_standard_deviation": 58.59931798634835
+          }
+        ]
       }
     },
     {
@@ -484,7 +840,13 @@
         "duration_seconds": 500.5,
         "bytes": 22015404,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "2/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/disk-distance.mp4",
       "poster": "media/disk-distance-poster.png",
@@ -495,16 +857,46 @@
         "duration_seconds": null,
         "bytes": 102477,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
-        "width": 1540,
-        "height": 770,
-        "frames": 1001,
+        "width": 1280,
+        "height": 640,
+        "frames": 12012,
         "duration_seconds": 500.5,
-        "bytes": 3735094,
+        "bytes": 8889438,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "7f63dcd08e7ab3d7679eb07fed01b8fe446d61350be9eac5ef65181835b762a1",
+      "output_validation": {
+        "timeline_packets": 12012,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 24.868022434873474
+          },
+          {
+            "time_seconds": 250.25,
+            "pixel_standard_deviation": 24.943113621460274
+          },
+          {
+            "time_seconds": 500.4583333333333,
+            "pixel_standard_deviation": 25.115824301921492
+          }
+        ]
       }
     },
     {
@@ -520,7 +912,13 @@
         "duration_seconds": 50.5,
         "bytes": 3161515,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "2/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/supplementary-loopsoup-distance-copy.mp4",
       "poster": "media/supplementary-loopsoup-distance-copy-poster.png",
@@ -531,16 +929,46 @@
         "duration_seconds": null,
         "bytes": 123117,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
-        "width": 1540,
-        "height": 770,
-        "frames": 101,
+        "width": 1280,
+        "height": 640,
+        "frames": 1212,
         "duration_seconds": 50.5,
-        "bytes": 713642,
+        "bytes": 1302406,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "e6187008a2cc5bde5bd5dd1eb6bc6f657a09b39ec7f73e5c6c596fda32a63c34",
+      "output_validation": {
+        "timeline_packets": 1212,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 28.917066872105703
+          },
+          {
+            "time_seconds": 25.25,
+            "pixel_standard_deviation": 27.238509694910118
+          },
+          {
+            "time_seconds": 50.458333333333336,
+            "pixel_standard_deviation": 28.216145249661103
+          }
+        ]
       }
     },
     {
@@ -556,7 +984,13 @@
         "duration_seconds": 50.5,
         "bytes": 2322895,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "2/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/supplementary-loopsoup-distance-square.mp4",
       "poster": "media/supplementary-loopsoup-distance-square-poster.png",
@@ -567,16 +1001,46 @@
         "duration_seconds": null,
         "bytes": 94264,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
-        "width": 1540,
-        "height": 770,
-        "frames": 101,
+        "width": 1280,
+        "height": 640,
+        "frames": 1212,
         "duration_seconds": 50.5,
-        "bytes": 508329,
+        "bytes": 1003779,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "eb57ac8ffeccd5346110d88f9b14c8bc1a2e15b246e5d42a73189fbbe77e3515",
+      "output_validation": {
+        "timeline_packets": 1212,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 24.72086527086436
+          },
+          {
+            "time_seconds": 25.25,
+            "pixel_standard_deviation": 24.86244398371781
+          },
+          {
+            "time_seconds": 50.458333333333336,
+            "pixel_standard_deviation": 24.97289082871211
+          }
+        ]
       }
     },
     {
@@ -592,7 +1056,13 @@
         "duration_seconds": 25.5,
         "bytes": 963870,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "2/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/supplementary-loopsoup-distance.mp4",
       "poster": "media/supplementary-loopsoup-distance-poster.png",
@@ -603,16 +1073,46 @@
         "duration_seconds": null,
         "bytes": 109064,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
-        "width": 1540,
-        "height": 770,
-        "frames": 51,
+        "width": 1280,
+        "height": 640,
+        "frames": 612,
         "duration_seconds": 25.5,
-        "bytes": 140839,
+        "bytes": 366798,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "88b03681be1d311e57edd6d6a5b8cfff15041275b18a63c8bde7d9c3fc419e38",
+      "output_validation": {
+        "timeline_packets": 612,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 23.590007324645242
+          },
+          {
+            "time_seconds": 12.75,
+            "pixel_standard_deviation": 23.855356369983095
+          },
+          {
+            "time_seconds": 25.458333333333332,
+            "pixel_standard_deviation": 23.639281823669876
+          }
+        ]
       }
     },
     {
@@ -628,7 +1128,13 @@
         "duration_seconds": 41.0,
         "bytes": 979805,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "1/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/supplementary-loopsoup-rewiring-copy.mp4",
       "poster": "media/supplementary-loopsoup-rewiring-copy-poster.png",
@@ -639,16 +1145,46 @@
         "duration_seconds": null,
         "bytes": 82418,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
         "width": 700,
         "height": 700,
-        "frames": 41,
+        "frames": 984,
         "duration_seconds": 41.0,
-        "bytes": 257891,
+        "bytes": 771946,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "92d1bef90dbce8642fdb1398edc6bcbac1e381c079995eeaf96606acd233a2a2",
+      "output_validation": {
+        "timeline_packets": 984,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 37.55584728940355
+          },
+          {
+            "time_seconds": 20.5,
+            "pixel_standard_deviation": 40.56040052166445
+          },
+          {
+            "time_seconds": 40.958333333333336,
+            "pixel_standard_deviation": 40.36227854968789
+          }
+        ]
       }
     },
     {
@@ -664,7 +1200,13 @@
         "duration_seconds": 100.5,
         "bytes": 16741344,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "2/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/supplementary-loopsoup-rewiring-compare-copy-2.mp4",
       "poster": "media/supplementary-loopsoup-rewiring-compare-copy-2-poster.png",
@@ -675,16 +1217,46 @@
         "duration_seconds": null,
         "bytes": 357800,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
         "width": 1200,
         "height": 1200,
-        "frames": 201,
+        "frames": 2412,
         "duration_seconds": 100.5,
-        "bytes": 2961679,
+        "bytes": 10156492,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "5560d3706c0463d30867d18227504c69dd63abc37d5c7c199ff5d40d2dfde9b4",
+      "output_validation": {
+        "timeline_packets": 2412,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 97.43214511824229
+          },
+          {
+            "time_seconds": 50.25,
+            "pixel_standard_deviation": 97.0039508484063
+          },
+          {
+            "time_seconds": 100.45833333333333,
+            "pixel_standard_deviation": 96.73979045768114
+          }
+        ]
       }
     },
     {
@@ -700,7 +1272,13 @@
         "duration_seconds": 20.5,
         "bytes": 2708558,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "2/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/supplementary-loopsoup-rewiring-compare-copy.mp4",
       "poster": "media/supplementary-loopsoup-rewiring-compare-copy-poster.png",
@@ -711,16 +1289,46 @@
         "duration_seconds": null,
         "bytes": 351473,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
         "width": 1200,
         "height": 1200,
-        "frames": 41,
+        "frames": 492,
         "duration_seconds": 20.5,
-        "bytes": 800105,
+        "bytes": 2142453,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "d3c803a78359762b36f8bfb563c6434a508bc5fbd5dc034ba6619bf06d0239bc",
+      "output_validation": {
+        "timeline_packets": 492,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 88.91773360696158
+          },
+          {
+            "time_seconds": 10.25,
+            "pixel_standard_deviation": 88.4732510378727
+          },
+          {
+            "time_seconds": 20.458333333333332,
+            "pixel_standard_deviation": 87.40661656846191
+          }
+        ]
       }
     },
     {
@@ -736,7 +1344,13 @@
         "duration_seconds": 5.25,
         "bytes": 630390,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "4/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/supplementary-loopsoup-rewiring-compare.mp4",
       "poster": "media/supplementary-loopsoup-rewiring-compare-poster.png",
@@ -747,16 +1361,46 @@
         "duration_seconds": null,
         "bytes": 373770,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
         "width": 1200,
         "height": 1200,
-        "frames": 21,
+        "frames": 126,
         "duration_seconds": 5.25,
-        "bytes": 333631,
+        "bytes": 560748,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "6434f18da983f3badbec9c60167803c026133b158a7eba602f842ebf09c2beea",
+      "output_validation": {
+        "timeline_packets": 126,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 47.64860801022943
+          },
+          {
+            "time_seconds": 2.625,
+            "pixel_standard_deviation": 47.65917955678563
+          },
+          {
+            "time_seconds": 5.208333333333333,
+            "pixel_standard_deviation": 47.623845687454086
+          }
+        ]
       }
     },
     {
@@ -772,7 +1416,13 @@
         "duration_seconds": 25.25,
         "bytes": 4658315,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "4/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/supplementary-loopsoup-rewiring.mp4",
       "poster": "media/supplementary-loopsoup-rewiring-poster.png",
@@ -783,16 +1433,46 @@
         "duration_seconds": null,
         "bytes": 129755,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
         "width": 700,
         "height": 700,
-        "frames": 101,
+        "frames": 606,
         "duration_seconds": 25.25,
-        "bytes": 300625,
+        "bytes": 798310,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "490be15b01867cf08da04fbef15242f71424a594e66871a668d8480de4b09040",
+      "output_validation": {
+        "timeline_packets": 606,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 47.98552306820498
+          },
+          {
+            "time_seconds": 12.625,
+            "pixel_standard_deviation": 50.569212796011186
+          },
+          {
+            "time_seconds": 25.208333333333332,
+            "pixel_standard_deviation": 48.163202669392945
+          }
+        ]
       }
     },
     {
@@ -808,7 +1488,13 @@
         "duration_seconds": 5.25,
         "bytes": 2330080,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "4/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/supplementary-loopsoup-rewiring0-001.mp4",
       "poster": "media/supplementary-loopsoup-rewiring0-001-poster.png",
@@ -819,16 +1505,46 @@
         "duration_seconds": null,
         "bytes": 247541,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
         "width": 700,
         "height": 700,
-        "frames": 21,
+        "frames": 126,
         "duration_seconds": 5.25,
-        "bytes": 220601,
+        "bytes": 360820,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "13efff9b9e9a0a1be0c7dda226320d8a917c854d440e2af531e3ac592ec8b433",
+      "output_validation": {
+        "timeline_packets": 126,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 66.04420675325228
+          },
+          {
+            "time_seconds": 2.625,
+            "pixel_standard_deviation": 66.0452769844949
+          },
+          {
+            "time_seconds": 5.208333333333333,
+            "pixel_standard_deviation": 66.05165258918896
+          }
+        ]
       }
     },
     {
@@ -844,7 +1560,13 @@
         "duration_seconds": 250.5,
         "bytes": 10687675,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "2/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/supplementary-loopsoup-distance-square-copy.mp4",
       "poster": "media/supplementary-loopsoup-distance-square-copy-poster.png",
@@ -855,16 +1577,46 @@
         "duration_seconds": null,
         "bytes": 71729,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
-        "width": 1540,
-        "height": 770,
-        "frames": 501,
+        "width": 1280,
+        "height": 640,
+        "frames": 6012,
         "duration_seconds": 250.5,
-        "bytes": 2270947,
+        "bytes": 4271457,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "4dc1a6465f33231ca3954123cd329c5b9cf8a68e6cd94c220460e68fcedb7398",
+      "output_validation": {
+        "timeline_packets": 6012,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 20.678008994747795
+          },
+          {
+            "time_seconds": 125.25,
+            "pixel_standard_deviation": 21.843458207412525
+          },
+          {
+            "time_seconds": 250.45833333333334,
+            "pixel_standard_deviation": 22.833350073559046
+          }
+        ]
       }
     },
     {
@@ -880,7 +1632,13 @@
         "duration_seconds": null,
         "bytes": 1824675,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output": "media/supplementary-loopsoup-epsilon-compare-square.png",
       "output_media": {
@@ -890,8 +1648,15 @@
         "duration_seconds": null,
         "bytes": 1824675,
         "codec": "png",
-        "pixel_format": "rgba"
-      }
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
+      },
+      "output_sha256": "bd19ded39a599000eeda5f67b7bc711a240e3ff5a60cebdb9df3760033bb2e12"
     },
     {
       "id": "supplementary-loopsoup-rewiring-square",
@@ -906,7 +1671,13 @@
         "duration_seconds": 41.0,
         "bytes": 1963801,
         "codec": "gif",
-        "pixel_format": "bgra"
+        "pixel_format": "bgra",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "1/1",
+        "b_frames": 0,
+        "time_base": "1/100"
       },
       "output": "media/supplementary-loopsoup-rewiring-square.mp4",
       "poster": "media/supplementary-loopsoup-rewiring-square-poster.png",
@@ -917,16 +1688,46 @@
         "duration_seconds": null,
         "bytes": 165560,
         "codec": "png",
-        "pixel_format": "rgba"
+        "pixel_format": "rgba",
+        "profile": null,
+        "level": -99,
+        "codec_tag": "[0][0][0][0]",
+        "frame_rate": "25/1",
+        "b_frames": 0,
+        "time_base": "1/25"
       },
       "output_media": {
         "width": 960,
         "height": 1020,
-        "frames": 41,
+        "frames": 984,
         "duration_seconds": 41.0,
-        "bytes": 375802,
+        "bytes": 1263860,
         "codec": "h264",
-        "pixel_format": "yuv420p"
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": 40,
+        "codec_tag": "avc1",
+        "frame_rate": "24/1",
+        "b_frames": 0,
+        "time_base": "1/24000"
+      },
+      "output_sha256": "ac1df79778c2d14c39adeb172be58cde7a5be3b721aa354aa7d2ea0f64590dfd",
+      "output_validation": {
+        "timeline_packets": 984,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 48.045793795759835
+          },
+          {
+            "time_seconds": 20.5,
+            "pixel_standard_deviation": 48.0288035983549
+          },
+          {
+            "time_seconds": 40.958333333333336,
+            "pixel_standard_deviation": 47.86344840080123
+          }
+        ]
       }
     }
   ],
@@ -954,6 +1755,6 @@
     "supplementary_assets": 12,
     "duplicate_files": 5,
     "source_bytes_unique": 209885224,
-    "output_bytes": 37395356
+    "output_bytes": 111055303
   }
 }

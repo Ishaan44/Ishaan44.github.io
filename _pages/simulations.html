@@ -124,7 +124,7 @@ simulations: true
       <ul class="archive-list">
         {% assign additional = site.data.simulation_media.assets | where: 'collection', 'supplementary' %}
         {% for media in additional %}
-        <li><a href="{{ sim | relative_url }}/{{ media.output }}">{{ media.source | escape }}</a>{% if media.output_media.duration_seconds %} <span class="small">({{ media.output_media.duration_seconds }} s)</span>{% endif %}</li>
+        <li><a href="{{ sim | relative_url }}/{{ media.output }}{% if media.output_sha256 %}?v={{ media.output_sha256 | slice: 0, 12 }}{% endif %}">{{ media.source | escape }}</a>{% if media.output_media.duration_seconds %} <span class="small">({{ media.output_media.duration_seconds }} s)</span>{% endif %}</li>
         {% endfor %}
       </ul>
     </details>
