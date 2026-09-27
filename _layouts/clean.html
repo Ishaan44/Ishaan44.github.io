@@ -4,6 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} | {% endif %}Ishaan Bhadoo</title>
+  {% if page.description %}<meta name="description" content="{{ page.description | escape }}">{% endif %}
+  {% if page.simulations %}
+  <link rel="stylesheet" href="{{ '/assets/css/simulations.css' | relative_url }}">
+  <script defer src="{{ '/assets/js/simulations.js' | relative_url }}"></script>
+  {% endif %}
 
   <style>
     :root {
@@ -174,6 +179,7 @@
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/' | relative_url }}#education">Education</a>
       <a href="{{ '/' | relative_url }}#research">Research</a>
+      <a href="{{ '/simulations/' | relative_url }}"{% if page.simulations %} aria-current="page"{% endif %}>Simulations</a>
       <a href="{{ '/' | relative_url }}#teaching">Teaching</a>
       <a href="{{ '/assets/pdf/CV_new.pdf' | relative_url }}">CV</a>
     </nav>

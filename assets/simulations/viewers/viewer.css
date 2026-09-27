@@ -1,0 +1,41 @@
+* { box-sizing: border-box; }
+html { color-scheme: light; }
+body { margin: 0; background: #fff; color: #22272a; font: 15px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 0; }
+header, main { width: min(100%, 1360px); margin: 0 auto; padding: 16px 24px; }
+header { padding-bottom: 0; }
+a { color: #146b65; text-underline-offset: 3px; }
+.back { font-size: 14px; }
+h1 { font-size: 24px; line-height: 1.25; font-weight: 650; margin: 12px 0 4px; overflow-wrap: anywhere; }
+main { padding-top: 8px; }
+#plot, #stage { display: block; width: 100%; height: clamp(360px, 65vh, 720px); }
+#stage { cursor: grab; touch-action: none; }
+#stage:active { cursor: grabbing; }
+#plot-status { margin: 6px 0; color: #525a60; }
+#plot-status:empty { display: none; }
+.notes { margin-top: 16px; border-top: 1px solid #dce2e3; padding-top: 12px; }
+summary { cursor: pointer; font-weight: 600; width: fit-content; }
+.notes p { margin: 7px 0; overflow-wrap: anywhere; font-size: 14px; }
+.archived-title { color: #525a60; }
+fieldset { border: 0; padding: 0; margin: 12px 0 0; min-width: 0; }
+legend { font-size: 13px; color: #525a60; padding: 0; margin-bottom: 6px; }
+#trace-options { display: flex; flex-wrap: wrap; gap: 6px 20px; }
+.trace-option { display: inline-flex; align-items: center; gap: 7px; min-width: 0; max-width: 100%; cursor: pointer; font-size: 13px; overflow-wrap: anywhere; }
+.trace-option input { accent-color: #146b65; flex: 0 0 auto; width: 16px; height: 16px; }
+.trace-swatch { width: 18px; height: 4px; flex: 0 0 18px; }
+.trace-label { min-width: 0; }
+.canvas-toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin: 10px 0; }
+.canvas-stats { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0; }
+.canvas-stats div { display: flex; gap: 5px; }
+.canvas-stats dt { color: #525a60; font-size: 13px; }
+.canvas-stats dd { margin: 0; font-size: 13px; font-weight: 600; }
+.canvas-controls { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; font-size: 13px; }
+.canvas-controls button { font: inherit; padding: 6px 10px; border: 1px solid #bdc8c8; border-radius: 4px; background: #fff; color: #22272a; cursor: pointer; }
+.canvas-controls button:hover { background: #edf4f3; }
+.canvas-controls input { width: 120px; accent-color: #146b65; }
+:focus-visible { outline: 2px solid #146b65; outline-offset: 3px; }
+@media (max-width: 600px) {
+  header, main { padding-left: 12px; padding-right: 12px; }
+  h1 { font-size: 21px; }
+  #plot, #stage { height: clamp(360px, 60vh, 520px); }
+  #trace-options { gap: 9px 16px; }
+}

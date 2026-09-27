@@ -1,0 +1,155 @@
+---
+layout: clean
+title: Loop-soup simulations
+description: Random-walk loop soups, split-merge dynamics, distance observables, and three-dimensional cluster and sprinkling experiments, with Python source code.
+permalink: /simulations/
+simulations: true
+---
+{% assign sim = '/assets/simulations' %}
+{% assign code = '/assets/simulations/code' %}
+<article class="simulations-page">
+  <h1>Loop-soup simulations</h1>
+  <p class="intro">Numerical experiments with random-walk loop soups: from planar loop configurations and split-merge dynamics to intersection clusters and small-loop sprinkling in three dimensions.</p>
+  <p class="source-links"><a href="{{ sim | relative_url }}/loop-soup-simulation-code.zip" download>Download all Python code</a><a href="#code">Source files and setup</a></p>
+
+  <nav class="simulation-index" aria-label="Simulation sections">
+    <a href="#planar">2D soups</a><a href="#cutoffs">Diameter cutoffs</a><a href="#rewiring">Rewiring</a><a href="#distance">Distance</a><a href="#single-loop">Single loop</a><a href="#three-dimensional">3D soups</a><a href="#clusters">Clusters</a><a href="#sprinkling">Sprinkling</a><a href="#archive">Archive</a>
+  </nav>
+
+  <section id="planar">
+    <h2><span class="section-number">01</span>Planar loop soups</h2>
+    <p>Random walks on a square lattice generate a soup of loops through a Wilson-type construction with a wired boundary. These saved carpet pictures are labelled $N=1000$.</p>
+    <div class="media-grid">
+      {% include simulation-media.html id="square-soup" title="Square lattice" alt="Loop-soup carpet on a square lattice" %}
+      {% include simulation-media.html id="disk-soup" title="Conformal disk image" alt="Square loop-soup carpet conformally mapped to a disk" %}
+    </div>
+    <p class="method-note">The disk carpet is conformally mapped from the square image. The circular views below instead clip square-lattice paths to a disk; they are not separate disk-domain samples.</p>
+    <p class="source-links"><a href="{{ code | relative_url }}/Loop-soup/square/RWLS.py" download>Square Python</a><a href="{{ code | relative_url }}/Loop-soup/Disk/RWLS.py" download>Disk Python</a></p>
+  </section>
+
+  <section id="cutoffs">
+    <h2><span class="section-number">02</span>Diameter cutoffs</h2>
+    <p>Retain only loops whose spatial size is at least $\varepsilon$. In the 2D code, size is the maximum coordinate span divided by $N$. Decreasing the cutoff reveals progressively smaller loops.</p>
+    <div class="media-grid thirds">
+      {% include simulation-media.html id="square-diameter-0p1" title="ε = 0.1" alt="Square loop soup with diameter cutoff 0.1" %}
+      {% include simulation-media.html id="square-diameter-0p01" title="ε = 0.01" alt="Square loop soup with diameter cutoff 0.01" %}
+      {% include simulation-media.html id="square-diameter-0p001" title="ε = 0.001" alt="Square loop soup with diameter cutoff 0.001" %}
+    </div>
+    <div class="media-grid">
+      {% include simulation-media.html id="square-epsilon-comparison" title="Square cutoff comparison" alt="Four square loop-soup panels comparing diameter cutoffs" %}
+      {% include simulation-media.html id="disk-epsilon-comparison" title="Circular cutoff comparison" alt="Four circular views comparing diameter cutoffs" %}
+    </div>
+    <p><a href="{{ sim | relative_url }}/media/disk-diameter-0p01.png">Circular view at $\varepsilon=0.01$</a></p>
+    <p class="source-links"><a href="{{ code | relative_url }}/Loop-soup/square/RWLS_cutoff.py" download>Square cutoff Python</a><a href="{{ code | relative_url }}/Loop-soup/Disk/RWLS_cutoff.py" download>Disk cutoff Python</a><a href="{{ code | relative_url }}/Loop-soup/square/RWLS_epsilon_compare.py" download>Square comparison Python</a><a href="{{ code | relative_url }}/Loop-soup/Disk/RWLS_epsilon_compare.py" download>Disk comparison Python</a></p>
+  </section>
+
+  <section id="rewiring">
+    <h2><span class="section-number">03</span>Split-merge rewiring</h2>
+    <p>The chain $M^\varepsilon$ splits a loop at a self-intersection or merges two loops at a shared lattice site. Both children of a split must satisfy the diameter cutoff. The animations follow the resulting loop configurations.</p>
+    <div class="media-grid">
+      {% include simulation-media.html id="square-rewiring" title="Rewiring on the square" %}
+      {% include simulation-media.html id="disk-rewiring" title="Rewiring in a circular view" %}
+      {% include simulation-media.html id="square-rewiring-comparison" title="Square: comparison across cutoffs" %}
+      {% include simulation-media.html id="disk-rewiring-comparison" title="Circular view: comparison across cutoffs" %}
+    </div>
+    <p class="source-links"><a href="{{ code | relative_url }}/Loop-soup/square/RWLS_rewiring.py" download>Square Python</a><a href="{{ code | relative_url }}/Loop-soup/Disk/RWLS_rewiring.py" download>Disk Python</a><a href="{{ code | relative_url }}/Loop-soup/square/RWLS_rewiring_compare.py" download>Square comparison Python</a><a href="{{ code | relative_url }}/Loop-soup/Disk/RWLS_rewiring_compare.py" download>Disk comparison Python</a></p>
+  </section>
+
+  <section id="distance">
+    <h2><span class="section-number">04</span>Distance during rewiring</h2>
+    <p>For a fixed observation point $z$, measure the distance to the nearest vertex of each loop, then take the largest of those distances:</p>
+    <p class="math-line">$D(t)=\max_{L\in\mathcal{L}_t}\min_{p\in L}\left\|p/(N-1)-z\right\|_2.$</p>
+    <p>This tracks an observable of the individual loops as the rewiring chain evolves.</p>
+    {% include simulation-media.html id="square-distance" title="Square configuration and D(t)" %}
+    {% include simulation-media.html id="disk-distance" title="Circular view and D(t)" %}
+    <div class="solo-media">{% include simulation-media.html id="square-distance-comparison" title="Distance comparison across cutoffs" %}</div>
+    <p class="source-links"><a href="{{ code | relative_url }}/Loop-soup/square/RWLS_distance.py" download>Square Python</a><a href="{{ code | relative_url }}/Loop-soup/Disk/RWLS_distance.py" download>Disk Python</a><a href="{{ code | relative_url }}/Loop-soup/square/RWLS_distance_compare.py" download>Comparison Python</a><a href="{{ code | relative_url }}/Loop-soup/square/RWLS_distance_interactive.py" download>Desktop interactive Python</a></p>
+  </section>
+
+  <section id="single-loop">
+    <h2><span class="section-number">05</span>Starting from one loop</h2>
+    <p>Start the same rewiring chain from a single large loop and follow its splitting and merging descendants. The current source selects the largest loop among those retained by the initial diameter filter.</p>
+    <div class="solo-media">{% include simulation-media.html id="square-single-loop" title="Single-loop initial condition" %}</div>
+    <p class="source-links"><a href="{{ code | relative_url }}/Loop-soup/square/RWLS_single_loop.py" download>Single-loop Python</a></p>
+  </section>
+
+  <section id="three-dimensional">
+    <h2><span class="section-number">06</span>Loop soups in three dimensions</h2>
+    <p>The construction extends to a wired $N\times N\times N$ cube. Saved runs use $N=30,50,100,200$ and $c=0.5$. The $N=200$ sample contains 492,614 loops; its viewer displays a filtered subset of 2,905.</p>
+    {% include simulation-viewer.html file="loopsoup-3d-N200-c0p5-plotly.html" title="N = 200: three-dimensional loop soup" %}
+    <ul>
+      <li><a href="{{ sim | relative_url }}/viewers/loopsoup-3d-N30-c0p5.html">$N=30$ sample</a></li>
+      <li><a href="{{ sim | relative_url }}/viewers/loopsoup-3d-N50-c0p5.html">$N=50$ sample</a></li>
+      <li><a href="{{ sim | relative_url }}/viewers/loopsoup-3d-N100-c0p5.html">$N=100$ sample</a></li>
+      <li><a href="{{ sim | relative_url }}/viewers/loopsoup-3d-visible-N50-c0p5-plotly.html">$N=50$: retained large loops</a> (122 displayed)</li>
+    </ul>
+    <p class="source-links"><a href="{{ code | relative_url }}/rwls3d/RWLS_3D.py" download>3D sampler Python</a><a href="{{ code | relative_url }}/rwls3d/RWLS_3D_visible.py" download>Large-loop sampler Python</a><a href="{{ code | relative_url }}/rwls3d/view_rwls3d_plotly.py" download>Plotly viewer Python</a><a href="{{ code | relative_url }}/rwls3d/view_rwls3d.py" download>Canvas viewer Python</a></p>
+  </section>
+
+  <section id="clusters">
+    <h2><span class="section-number">07</span>Intersection clusters</h2>
+    <p>Loops belong to the same cluster when a chain of shared lattice vertices connects them. These $N=200$ views use loops of at least eight steps. One view isolates two clusters; the other identifies a closest pair, separated by one lattice unit.</p>
+    {% include simulation-viewer.html file="loopsoup-3d-N200-c0p5-two-clusters.html" title="Two intersection clusters" %}
+    {% include simulation-viewer.html file="loopsoup-3d-N200-c0p5-closest-clusters.html" title="Closest pair of clusters" %}
+    <p class="source-links"><a href="{{ code | relative_url }}/rwls3d/view_rwls3d_two_clusters.py" download>Cluster analysis Python</a></p>
+  </section>
+
+  <section id="sprinkling">
+    <h2><span class="section-number">08</span>Sprinkling and gluing</h2>
+    <p>Select two clusters formed by loops above a cutoff $L$, then add independent smaller loops in decreasing order of size. The experiment records whether these loops connect the selected clusters and the cutoff at which the first connection appears.</p>
+    <div class="table-wrap">
+      <table>
+        <caption>Recorded outcomes. The macro soup has $c=0.5$ in each run.</caption>
+        <thead><tr><th scope="col">Run</th><th scope="col">Dust c</th><th scope="col">Cutoff window</th><th scope="col">Outcome</th></tr></thead>
+        <tbody>
+          <tr><td><a href="{{ sim | relative_url }}/viewers/sprinkling-gluing-N80.html">N = 80</a></td><td>0.5</td><td>Diameter: 2 ≤ d &lt; 8</td><td class="not-connected">No connection</td></tr>
+          <tr><td><a href="{{ sim | relative_url }}/viewers/sprinkling-gluing-N100.html">N = 100</a></td><td>0.5</td><td>Diameter: 1 ≤ d &lt; 8</td><td class="not-connected">No connection</td></tr>
+          <tr><td><a href="{{ sim | relative_url }}/viewers/sprinkling-gluing-N100-dustc1.html">N = 100</a></td><td>1.0</td><td>Diameter: 1 ≤ d &lt; 8</td><td class="connected">One-loop bridge at d ≈ 7.07</td></tr>
+          <tr><td><a href="{{ sim | relative_url }}/viewers/sprinkling-gluing-N200-dustc1.html">N = 200</a></td><td>1.0</td><td>Diameter: 1 ≤ d &lt; 8</td><td class="connected">One-loop bridge at d ≈ 7.07</td></tr>
+          <tr><td><a href="{{ sim | relative_url }}/viewers/sprinkling-local-cube-N80.html">N = 80, local cube</a></td><td>1.0</td><td>Time length: 2 ≤ ℓ &lt; 8</td><td class="connected">One-loop bridge at ℓ = 2</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="method-note">Spatial sizes here are bounding-box diagonal lengths in lattice units. The local-cube run uses time length instead. These are individual sample outcomes, not estimates of connection probabilities.</p>
+    {% include simulation-viewer.html file="sprinkling-gluing-N200-dustc1.html" title="N = 200: a bridge formed by independent dust" %}
+    {% include simulation-viewer.html file="sprinkling-local-cube-N80.html" title="N = 80: sprinkling in a local cube" %}
+    <p class="source-links"><a href="{{ code | relative_url }}/rwls3d/sprinkling_gluing.py" download>Sprinkling Python</a><a href="{{ code | relative_url }}/rwls3d/app.py" download>Local 3D app Python</a></p>
+  </section>
+
+  <section id="archive">
+    <h2>Additional archived runs</h2>
+    <p>Earlier exports of the rewiring and distance experiments, including longer runs and alternative cutoff comparisons. Original filenames identify each recording; complete parameter records were not saved for these variants.</p>
+    <details>
+      <summary>12 additional recordings and figures</summary>
+      <ul class="archive-list">
+        {% assign additional = site.data.simulation_media.assets | where: 'collection', 'supplementary' %}
+        {% for media in additional %}
+        <li><a href="{{ sim | relative_url }}/{{ media.output }}">{{ media.source | escape }}</a>{% if media.output_media.duration_seconds %} <span class="small">({{ media.output_media.duration_seconds }} s)</span>{% endif %}</li>
+        {% endfor %}
+      </ul>
+    </details>
+  </section>
+
+  <section id="code">
+    <h2>Code and reproduction</h2>
+    <p><a href="{{ sim | relative_url }}/loop-soup-simulation-code.zip" download>Download the complete Python source bundle</a> (24 scripts), or <a href="https://github.com/Ishaan44/Ishaan44.github.io/tree/master/assets/simulations/code">browse the source on GitHub</a>.</p>
+    <p>The bundle includes the generators, analysis scripts, exporters, and local Streamlit and Flask apps. Export paths are portable; the stochastic logic and parameter defaults are preserved.</p>
+    <pre><code>python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+
+python rwls3d/RWLS_3D.py --N 20 --c 0.5 --seed 11
+python rwls3d/app.py --host 127.0.0.1 --port 5055</code></pre>
+    <p><a href="{{ code | relative_url }}/README.md">Full setup and run instructions</a> · <a href="{{ code | relative_url }}/requirements.txt" download>Python requirements</a></p>
+    <p class="method-note">For 2D scripts, parameters are constants in each file; start with a small grid. Current source defaults need not match archived runs. In this implementation, $c$ enters a loop-label probability: values above one in some legacy 2D controls saturate. The 3D command-line sampler accepts $0\leq c\leq1$.</p>
+    <div class="code-group">
+      <details>
+        <summary>All source files</summary>
+        {% for group in site.data.simulation_sources %}
+        <h3>{{ group.title }}</h3>
+        <ul>{% for file in group.files %}<li><a href="{{ code | relative_url }}/{{ file.path }}" download>{{ file.name }}</a></li>{% endfor %}</ul>
+        {% endfor %}
+      </details>
+    </div>
+  </section>
+</article>

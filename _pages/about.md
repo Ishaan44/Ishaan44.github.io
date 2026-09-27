@@ -35,6 +35,8 @@ Joint work with [Professor Wendelin Werner](https://www.dpmms.cam.ac.uk/~ww295/)
 
 We develop a theory of a natural Markov chain on Brownian loop soups, related to the notion of indistinguishability of bosons, and study its connections to the Gaussian free field.
 
+[Loop-soup simulations and code](/simulations/): lattice soups, split-merge dynamics, distance observables, and three-dimensional cluster and sprinkling experiments.
+
 ### Percolation of arbitrary words: trees and graphs of isoperimetric dimension greater than two
 
 Joint work with Ritvik Radhakrishnan. [[PDF]](/assets/pdf/PoW.pdf)

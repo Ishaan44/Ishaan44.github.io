@@ -1,0 +1,959 @@
+{
+  "description": "2D loop-soup scientific exports. GIF sources are represented by H.264 MP4 videos with unchanged frame counts and duration, and lossless first-frame PNG posters.",
+  "assets": [
+    {
+      "id": "square-soup",
+      "collection": "canonical",
+      "source": "Loop-soup/square/loopsoup-1000-square.png",
+      "source_sha256": "0428ca10a746b19f3fd640d03bbed8913bc653b0734d9d5c320ad4e9a16284fc",
+      "duplicates": [
+        "square/loopsoup-1000-square.png"
+      ],
+      "source_media": {
+        "width": 4435,
+        "height": 4435,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 265768,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output": "media/square-soup.png",
+      "output_media": {
+        "width": 4435,
+        "height": 4435,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 265768,
+        "codec": "png",
+        "pixel_format": "rgba"
+      }
+    },
+    {
+      "id": "square-diameter-0p1",
+      "collection": "canonical",
+      "source": "Loop-soup/square/loopsoup-1000-diam-0.1-square.png",
+      "source_sha256": "dcb5732523ab7dbbe6da495c7b72979aa88ef1f6d42193cf14aade59bba35709",
+      "duplicates": [
+        "square/loopsoup-1000-diam-0.1-square.png"
+      ],
+      "source_media": {
+        "width": 1878,
+        "height": 1878,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 211271,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output": "media/square-diameter-0p1.png",
+      "output_media": {
+        "width": 1878,
+        "height": 1878,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 211271,
+        "codec": "png",
+        "pixel_format": "rgba"
+      }
+    },
+    {
+      "id": "square-diameter-0p01",
+      "collection": "canonical",
+      "source": "Loop-soup/square/loopsoup-1000-diam-0.01-square.png",
+      "source_sha256": "36faac6dd0d00899a45b48f10dc47b9abca1777a20c450f6feeb572df466e1a3",
+      "duplicates": [
+        "square/loopsoup-1000-diam-0.01-square.png"
+      ],
+      "source_media": {
+        "width": 1878,
+        "height": 1878,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 815634,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output": "media/square-diameter-0p01.png",
+      "output_media": {
+        "width": 1878,
+        "height": 1878,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 815634,
+        "codec": "png",
+        "pixel_format": "rgba"
+      }
+    },
+    {
+      "id": "square-diameter-0p001",
+      "collection": "canonical",
+      "source": "Loop-soup/square/loopsoup-1000-diam-0.001-square.png",
+      "source_sha256": "9b79631ccf83c1cef8942cdb3abaec4cc480a94b5b646ee7ca6e3c14ac1f6deb",
+      "duplicates": [
+        "square/loopsoup-1000-diam-0.001-square.png"
+      ],
+      "source_media": {
+        "width": 1878,
+        "height": 1878,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 1707459,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output": "media/square-diameter-0p001.png",
+      "output_media": {
+        "width": 1878,
+        "height": 1878,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 1707459,
+        "codec": "png",
+        "pixel_format": "rgba"
+      }
+    },
+    {
+      "id": "square-epsilon-comparison",
+      "collection": "canonical",
+      "source": "Loop-soup/square/loopsoup-epsilon-compare-square.png",
+      "source_sha256": "24278b98813faddde657456f7c83534cc21372cac5a66ab0474c2a9125a8b7d9",
+      "duplicates": [],
+      "source_media": {
+        "width": 3498,
+        "height": 3572,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 1808985,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output": "media/square-epsilon-comparison.png",
+      "output_media": {
+        "width": 3498,
+        "height": 3572,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 1808985,
+        "codec": "png",
+        "pixel_format": "rgba"
+      }
+    },
+    {
+      "id": "disk-soup",
+      "collection": "canonical",
+      "source": "Loop-soup/Disk/loopsoup-1000.png",
+      "source_sha256": "6b0dd13feda80f52c43ea96308206dd1b24bb051df186606af71209aa3f2b746",
+      "duplicates": [],
+      "source_media": {
+        "width": 4435,
+        "height": 4435,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 245902,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output": "media/disk-soup.png",
+      "output_media": {
+        "width": 4435,
+        "height": 4435,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 245902,
+        "codec": "png",
+        "pixel_format": "rgba"
+      }
+    },
+    {
+      "id": "disk-diameter-0p01",
+      "collection": "canonical",
+      "source": "Loop-soup/Disk/loopsoup-1000-diam-0.01.png",
+      "source_sha256": "29e2b8132345dae56c5521485c2de18dc531f51d26a7960216f6328095c22de3",
+      "duplicates": [],
+      "source_media": {
+        "width": 1878,
+        "height": 1878,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 691337,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output": "media/disk-diameter-0p01.png",
+      "output_media": {
+        "width": 1878,
+        "height": 1878,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 691337,
+        "codec": "png",
+        "pixel_format": "rgba"
+      }
+    },
+    {
+      "id": "disk-epsilon-comparison",
+      "collection": "canonical",
+      "source": "Loop-soup/Disk/loopsoup-epsilon-compare.png",
+      "source_sha256": "f749587eb6e2c498c7d49ab926e4072af0137d2e42a56912aeb16a5f30ade6e2",
+      "duplicates": [],
+      "source_media": {
+        "width": 3495,
+        "height": 3570,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 1722756,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output": "media/disk-epsilon-comparison.png",
+      "output_media": {
+        "width": 3495,
+        "height": 3570,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 1722756,
+        "codec": "png",
+        "pixel_format": "rgba"
+      }
+    },
+    {
+      "id": "square-rewiring",
+      "collection": "canonical",
+      "source": "Loop-soup/square/loopsoup-rewiring-square.gif",
+      "source_sha256": "580b26be3f020b1350dc11855095226b523f3933037d4f1f98ac2a57282bf075",
+      "duplicates": [],
+      "source_media": {
+        "width": 960,
+        "height": 1020,
+        "frames": 401,
+        "duration_seconds": 401.0,
+        "bytes": 101657071,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/square-rewiring.mp4",
+      "poster": "media/square-rewiring-poster.png",
+      "poster_media": {
+        "width": 960,
+        "height": 1020,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 796344,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 960,
+        "height": 1020,
+        "frames": 401,
+        "duration_seconds": 401.0,
+        "bytes": 3752939,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "square-rewiring-comparison",
+      "collection": "canonical",
+      "source": "Loop-soup/square/loopsoup-rewiring-compare-square.gif",
+      "source_sha256": "7b57b50fdb4778ecb0bea8e49202fc4ea40fc052bfe32a6901ccdd2393a4540e",
+      "duplicates": [
+        "square/loopsoup-rewiring-compare-square.gif"
+      ],
+      "source_media": {
+        "width": 1430,
+        "height": 1485,
+        "frames": 41,
+        "duration_seconds": 20.5,
+        "bytes": 10198852,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/square-rewiring-comparison.mp4",
+      "poster": "media/square-rewiring-comparison-poster.png",
+      "poster_media": {
+        "width": 1430,
+        "height": 1486,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 955356,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 1430,
+        "height": 1486,
+        "frames": 41,
+        "duration_seconds": 20.5,
+        "bytes": 1493886,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "square-distance",
+      "collection": "canonical",
+      "source": "Loop-soup/loopsoup-distance-square.gif",
+      "source_sha256": "84da31f8f7b2704e967cd620a8b08f64280b92df7ed9cdf733520d221142a736",
+      "duplicates": [],
+      "source_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 101,
+        "duration_seconds": 50.5,
+        "bytes": 2089476,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/square-distance.mp4",
+      "poster": "media/square-distance-poster.png",
+      "poster_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 91355,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 101,
+        "duration_seconds": 50.5,
+        "bytes": 546200,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "square-distance-comparison",
+      "collection": "canonical",
+      "source": "Loop-soup/square/loopsoup-distance-compare-square.gif",
+      "source_sha256": "849cd61e36bc755165f93a179f766dcfda1394fcd3b647eceb337645beb0b5fd",
+      "duplicates": [],
+      "source_media": {
+        "width": 1430,
+        "height": 1430,
+        "frames": 41,
+        "duration_seconds": 20.5,
+        "bytes": 4637348,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/square-distance-comparison.mp4",
+      "poster": "media/square-distance-comparison-poster.png",
+      "poster_media": {
+        "width": 1430,
+        "height": 1430,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 421456,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 1430,
+        "height": 1430,
+        "frames": 41,
+        "duration_seconds": 20.5,
+        "bytes": 995612,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "square-single-loop",
+      "collection": "canonical",
+      "source": "Loop-soup/square/loopsoup-single-loop.gif",
+      "source_sha256": "9890d9e1b5495601c84c2c5853be5c5338a65fa359f17a6333039ae861704050",
+      "duplicates": [],
+      "source_media": {
+        "width": 840,
+        "height": 900,
+        "frames": 241,
+        "duration_seconds": 241.0,
+        "bytes": 2951196,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/square-single-loop.mp4",
+      "poster": "media/square-single-loop-poster.png",
+      "poster_media": {
+        "width": 840,
+        "height": 900,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 27848,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 840,
+        "height": 900,
+        "frames": 241,
+        "duration_seconds": 241.0,
+        "bytes": 1773912,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "disk-rewiring",
+      "collection": "canonical",
+      "source": "Loop-soup/Disk/loopsoup-rewiring.gif",
+      "source_sha256": "7eaa0045802367fe764cabddfa074ba9ccffbb424d9759fa8aef1edc7b621984",
+      "duplicates": [],
+      "source_media": {
+        "width": 960,
+        "height": 960,
+        "frames": 41,
+        "duration_seconds": 41.0,
+        "bytes": 1564612,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/disk-rewiring.mp4",
+      "poster": "media/disk-rewiring-poster.png",
+      "poster_media": {
+        "width": 960,
+        "height": 960,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 197657,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 960,
+        "height": 960,
+        "frames": 41,
+        "duration_seconds": 41.0,
+        "bytes": 419039,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "disk-rewiring-comparison",
+      "collection": "canonical",
+      "source": "Loop-soup/Disk/loopsoup-rewiring-compare.gif",
+      "source_sha256": "08ca2537485bc61d93acd168a71bbed53384085a209cce422fb100e75992ab3a",
+      "duplicates": [],
+      "source_media": {
+        "width": 1430,
+        "height": 1430,
+        "frames": 41,
+        "duration_seconds": 20.5,
+        "bytes": 8329230,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/disk-rewiring-comparison.mp4",
+      "poster": "media/disk-rewiring-comparison-poster.png",
+      "poster_media": {
+        "width": 1430,
+        "height": 1430,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 582863,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 1430,
+        "height": 1430,
+        "frames": 41,
+        "duration_seconds": 20.5,
+        "bytes": 1218949,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "disk-distance",
+      "collection": "canonical",
+      "source": "Loop-soup/Disk/loopsoup-distance.gif",
+      "source_sha256": "2e6600f190459c4bd429be73758d230e10a962849f5e962ddab9b2faaccf86ed",
+      "duplicates": [],
+      "source_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 1001,
+        "duration_seconds": 500.5,
+        "bytes": 22015404,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/disk-distance.mp4",
+      "poster": "media/disk-distance-poster.png",
+      "poster_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 102477,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 1001,
+        "duration_seconds": 500.5,
+        "bytes": 3735094,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "supplementary-loopsoup-distance-copy",
+      "collection": "supplementary",
+      "source": "loopsoup-distance copy.gif",
+      "source_sha256": "137271af66433062d5d700831ef29828ab5e4a6cb6780e4563b46118fbd27069",
+      "duplicates": [],
+      "source_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 101,
+        "duration_seconds": 50.5,
+        "bytes": 3161515,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/supplementary-loopsoup-distance-copy.mp4",
+      "poster": "media/supplementary-loopsoup-distance-copy-poster.png",
+      "poster_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 123117,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 101,
+        "duration_seconds": 50.5,
+        "bytes": 713642,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "supplementary-loopsoup-distance-square",
+      "collection": "supplementary",
+      "source": "loopsoup-distance-square.gif",
+      "source_sha256": "a153e0dee26b4c04bed1bba0e8759b4da8f78c4acb19ed785731549b0a057d22",
+      "duplicates": [],
+      "source_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 101,
+        "duration_seconds": 50.5,
+        "bytes": 2322895,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/supplementary-loopsoup-distance-square.mp4",
+      "poster": "media/supplementary-loopsoup-distance-square-poster.png",
+      "poster_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 94264,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 101,
+        "duration_seconds": 50.5,
+        "bytes": 508329,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "supplementary-loopsoup-distance",
+      "collection": "supplementary",
+      "source": "loopsoup-distance.gif",
+      "source_sha256": "2b6cd9bc233e7a3051a35dc468481414e0ece321f05f5cba1121f5f368166e45",
+      "duplicates": [],
+      "source_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 51,
+        "duration_seconds": 25.5,
+        "bytes": 963870,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/supplementary-loopsoup-distance.mp4",
+      "poster": "media/supplementary-loopsoup-distance-poster.png",
+      "poster_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 109064,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 51,
+        "duration_seconds": 25.5,
+        "bytes": 140839,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring-copy",
+      "collection": "supplementary",
+      "source": "loopsoup-rewiring copy.gif",
+      "source_sha256": "31e8b2ded0b42e9fa051409bcb92db31de809648db0f6939522ce4b6cc3876a0",
+      "duplicates": [],
+      "source_media": {
+        "width": 700,
+        "height": 700,
+        "frames": 41,
+        "duration_seconds": 41.0,
+        "bytes": 979805,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/supplementary-loopsoup-rewiring-copy.mp4",
+      "poster": "media/supplementary-loopsoup-rewiring-copy-poster.png",
+      "poster_media": {
+        "width": 700,
+        "height": 700,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 82418,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 700,
+        "height": 700,
+        "frames": 41,
+        "duration_seconds": 41.0,
+        "bytes": 257891,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring-compare-copy-2",
+      "collection": "supplementary",
+      "source": "loopsoup-rewiring-compare copy 2.gif",
+      "source_sha256": "543abed8765c8039e0183fc62cbc06cf2384e4261338d34b88e2467ee64dc9bd",
+      "duplicates": [],
+      "source_media": {
+        "width": 1200,
+        "height": 1200,
+        "frames": 201,
+        "duration_seconds": 100.5,
+        "bytes": 16741344,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/supplementary-loopsoup-rewiring-compare-copy-2.mp4",
+      "poster": "media/supplementary-loopsoup-rewiring-compare-copy-2-poster.png",
+      "poster_media": {
+        "width": 1200,
+        "height": 1200,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 357800,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 1200,
+        "height": 1200,
+        "frames": 201,
+        "duration_seconds": 100.5,
+        "bytes": 2961679,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring-compare-copy",
+      "collection": "supplementary",
+      "source": "loopsoup-rewiring-compare copy.gif",
+      "source_sha256": "dfc96d0dca2d081cc72ba2f6caeb59f6b69e7b88707c89bb09216dc021ad240a",
+      "duplicates": [],
+      "source_media": {
+        "width": 1200,
+        "height": 1200,
+        "frames": 41,
+        "duration_seconds": 20.5,
+        "bytes": 2708558,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/supplementary-loopsoup-rewiring-compare-copy.mp4",
+      "poster": "media/supplementary-loopsoup-rewiring-compare-copy-poster.png",
+      "poster_media": {
+        "width": 1200,
+        "height": 1200,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 351473,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 1200,
+        "height": 1200,
+        "frames": 41,
+        "duration_seconds": 20.5,
+        "bytes": 800105,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring-compare",
+      "collection": "supplementary",
+      "source": "loopsoup-rewiring-compare.gif",
+      "source_sha256": "9e3f3dce90893cb07b2e7dcade476b40cd2213e9fe2383a1d6738d365576a783",
+      "duplicates": [],
+      "source_media": {
+        "width": 1200,
+        "height": 1200,
+        "frames": 21,
+        "duration_seconds": 5.25,
+        "bytes": 630390,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/supplementary-loopsoup-rewiring-compare.mp4",
+      "poster": "media/supplementary-loopsoup-rewiring-compare-poster.png",
+      "poster_media": {
+        "width": 1200,
+        "height": 1200,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 373770,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 1200,
+        "height": 1200,
+        "frames": 21,
+        "duration_seconds": 5.25,
+        "bytes": 333631,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring",
+      "collection": "supplementary",
+      "source": "loopsoup-rewiring.gif",
+      "source_sha256": "b7c00aad5668fb5b82fd6063ff156216d3f8d2cd2e3922d6d1ec3b1a212b5ba9",
+      "duplicates": [],
+      "source_media": {
+        "width": 700,
+        "height": 700,
+        "frames": 101,
+        "duration_seconds": 25.25,
+        "bytes": 4658315,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/supplementary-loopsoup-rewiring.mp4",
+      "poster": "media/supplementary-loopsoup-rewiring-poster.png",
+      "poster_media": {
+        "width": 700,
+        "height": 700,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 129755,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 700,
+        "height": 700,
+        "frames": 101,
+        "duration_seconds": 25.25,
+        "bytes": 300625,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring0-001",
+      "collection": "supplementary",
+      "source": "loopsoup-rewiring0.001.gif",
+      "source_sha256": "543a013c9b7ceda1fbf7a38efe0422893f0630ab2162e08800383ce67c1a9afb",
+      "duplicates": [],
+      "source_media": {
+        "width": 700,
+        "height": 700,
+        "frames": 21,
+        "duration_seconds": 5.25,
+        "bytes": 2330080,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/supplementary-loopsoup-rewiring0-001.mp4",
+      "poster": "media/supplementary-loopsoup-rewiring0-001-poster.png",
+      "poster_media": {
+        "width": 700,
+        "height": 700,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 247541,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 700,
+        "height": 700,
+        "frames": 21,
+        "duration_seconds": 5.25,
+        "bytes": 220601,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "supplementary-loopsoup-distance-square-copy",
+      "collection": "supplementary",
+      "source": "square/loopsoup-distance-square copy.gif",
+      "source_sha256": "cf80fd2117847eb56514fb92234ce749495c3249999ffd9b79fe1adde6a6504f",
+      "duplicates": [],
+      "source_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 501,
+        "duration_seconds": 250.5,
+        "bytes": 10687675,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/supplementary-loopsoup-distance-square-copy.mp4",
+      "poster": "media/supplementary-loopsoup-distance-square-copy-poster.png",
+      "poster_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 71729,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 1540,
+        "height": 770,
+        "frames": 501,
+        "duration_seconds": 250.5,
+        "bytes": 2270947,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    },
+    {
+      "id": "supplementary-loopsoup-epsilon-compare-square",
+      "collection": "supplementary",
+      "source": "square/loopsoup-epsilon-compare-square.png",
+      "source_sha256": "bd19ded39a599000eeda5f67b7bc711a240e3ff5a60cebdb9df3760033bb2e12",
+      "duplicates": [],
+      "source_media": {
+        "width": 3495,
+        "height": 3570,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 1824675,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output": "media/supplementary-loopsoup-epsilon-compare-square.png",
+      "output_media": {
+        "width": 3495,
+        "height": 3570,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 1824675,
+        "codec": "png",
+        "pixel_format": "rgba"
+      }
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring-square",
+      "collection": "supplementary",
+      "source": "square/loopsoup-rewiring-square.gif",
+      "source_sha256": "bb64f04a5844e70e46d567670fa2c62ddac3098929481d0035cb4efe4375b237",
+      "duplicates": [],
+      "source_media": {
+        "width": 960,
+        "height": 1020,
+        "frames": 41,
+        "duration_seconds": 41.0,
+        "bytes": 1963801,
+        "codec": "gif",
+        "pixel_format": "bgra"
+      },
+      "output": "media/supplementary-loopsoup-rewiring-square.mp4",
+      "poster": "media/supplementary-loopsoup-rewiring-square-poster.png",
+      "poster_media": {
+        "width": 960,
+        "height": 1020,
+        "frames": 1,
+        "duration_seconds": null,
+        "bytes": 165560,
+        "codec": "png",
+        "pixel_format": "rgba"
+      },
+      "output_media": {
+        "width": 960,
+        "height": 1020,
+        "frames": 41,
+        "duration_seconds": 41.0,
+        "bytes": 375802,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      }
+    }
+  ],
+  "duplicates": {
+    "square/loopsoup-1000-square.png": "Loop-soup/square/loopsoup-1000-square.png",
+    "square/loopsoup-1000-diam-0.1-square.png": "Loop-soup/square/loopsoup-1000-diam-0.1-square.png",
+    "square/loopsoup-1000-diam-0.01-square.png": "Loop-soup/square/loopsoup-1000-diam-0.01-square.png",
+    "square/loopsoup-1000-diam-0.001-square.png": "Loop-soup/square/loopsoup-1000-diam-0.001-square.png",
+    "square/loopsoup-rewiring-compare-square.gif": "Loop-soup/square/loopsoup-rewiring-compare-square.gif"
+  },
+  "excluded": [
+    {
+      "source": "Screenshot 2026-02-18 at 17.39.18.png",
+      "source_sha256": "e781361d9d3af6dd82eb5ec82c56c46b550a9d1648d3904a6ed25fe685f80288",
+      "reason": "Screenshot; not a scientific export."
+    },
+    {
+      "source": "Screenshot 2026-02-19 at 14.19.19.png",
+      "source_sha256": "93ce25bc8f33fb73f9afe1f2578621dfa542d216e5fa3829d57809e06e12cf4c",
+      "reason": "Screenshot; not a scientific export."
+    }
+  ],
+  "totals": {
+    "canonical_assets": 16,
+    "supplementary_assets": 12,
+    "duplicate_files": 5,
+    "source_bytes_unique": 209885224,
+    "output_bytes": 37395356
+  }
+}

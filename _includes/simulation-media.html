@@ -1,0 +1,16 @@
+{% assign media = site.data.simulation_media.assets | where: 'id', include.id | first %}
+{% assign media_url = '/assets/simulations/' | append: media.output %}
+<figure class="simulation-media">
+  {% if media.poster %}
+  {% assign poster_url = '/assets/simulations/' | append: media.poster %}
+  <video controls playsinline loop preload="none" poster="{{ poster_url | relative_url }}" width="{{ media.output_media.width }}" height="{{ media.output_media.height }}" aria-label="{{ include.title | escape }}">
+    <source src="{{ media_url | relative_url }}" type="video/mp4">
+    <a href="{{ media_url | relative_url }}">{{ include.title }}</a>
+  </video>
+  {% else %}
+  <a class="image-link" href="{{ media_url | relative_url }}" aria-label="{{ include.title | escape }} (full-size image)">
+    <img src="{{ media_url | relative_url }}" alt="{{ include.alt | default: include.title | escape }}" width="{{ media.output_media.width }}" height="{{ media.output_media.height }}" loading="lazy" decoding="async">
+  </a>
+  {% endif %}
+  <figcaption><strong>{{ include.title }}</strong>{% if include.caption %}<br>{{ include.caption }}{% endif %}</figcaption>
+</figure>

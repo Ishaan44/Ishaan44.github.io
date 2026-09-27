@@ -1,0 +1,232 @@
+{
+  "description": "Faithful archived 3D loop-soup figures with responsive presentation. No simulation was rerun. Numeric figure data are verified unchanged.",
+  "viewers": [
+    {
+      "engine": "Original Canvas 2D projection",
+      "title": "Wired cube: N = 100, c = 0.5",
+      "archived_title": "3D RWLS Viewer",
+      "archived_result_summaries": [
+        "N: 100; c: 0.5; seed: 3",
+        "Source loops: 59,206; shown loops: 12,000; shown steps: 121,080",
+        "Minimum length: 4; minimum lattice diameter: 0.0; largest shown loop: 982 steps"
+      ],
+      "shown_loop_count": 12000,
+      "source_loop_count": 59206,
+      "data_sha256": "1d3fdd10cdc40a2a13d2b436d42d22b126639d9508b4a3a063c8783fa5295466",
+      "data_verified_unchanged": true,
+      "presentation_changes": "Corrected unexpanded template braces outside DATA; responsive canvas dimensions and mobile framing; original rotation, pan, zoom, density, and reset logic retained.",
+      "filename": "loopsoup-3d-N100-c0p5.html",
+      "source": "rwls3d/output/loopsoup-3d-N100-c0p5.html",
+      "original_bytes": 3857845,
+      "output_bytes": 3856756
+    },
+    {
+      "engine": "Plotly 3.6.0",
+      "title": "Closest intersection clusters: N = 200",
+      "archived_title": "Two Closest Intersection Clusters in 3D RWLS (N=200, c=0.5, filtered loops=37,464)",
+      "archived_result_summaries": [
+        "Cluster 1: 162 loops, 13,044 total steps, diameter 0.597, rendered 162 loops / 13,206 points\nCluster 2: 4 loops, 186 total steps, diameter 0.066, rendered 4 loops / 190 points\nClosest distance: 0.0050 rescaled (1.00 lattice units)\nIntersection rule: loops share a lattice vertex. Filters: length >= 8, diameter >= 0.0."
+      ],
+      "trace_count": 6,
+      "data_sha256": "f41581e21320d68116d46944d06d143131f35b68251e5937fde36d36482b89cb",
+      "figure_sha256": "254f1cf95cac8643d1db4a05dd2fe04fd9d46539be7da5ff1fcecdebd5e9f873",
+      "data_verified_unchanged": true,
+      "presentation_changes": "Responsive plot dimensions and camera framing; original titles and annotations displayed as ordinary HTML; accessible external trace toggles.",
+      "filename": "loopsoup-3d-N200-c0p5-closest-clusters.html",
+      "source": "rwls3d/output/loopsoup-3d-N200-c0p5-closest-clusters.html",
+      "original_bytes": 5633386,
+      "output_bytes": 789914
+    },
+    {
+      "engine": "Plotly 3.6.0",
+      "title": "Wired cube: N = 200, c = 0.5",
+      "archived_title": "3D Random Walk Loop Soup in a Cube (N=200, c=0.5, shown=2,905/492,614)",
+      "archived_result_summaries": [
+        "Visible filter: length >= 8, lattice diameter >= 0.0. Shown steps: 297,070. Largest shown loop: 8,122 steps. Drag to rotate, scroll to zoom, shift-drag to pan."
+      ],
+      "trace_count": 8,
+      "data_sha256": "8e310a109d776ee6c58176cc29a9220fc29854994d30f63bd32d5cbc1b06b79f",
+      "figure_sha256": "b8b16c45ffa037af1b618b76e3429c09dc44bc0f1fff4ea06982bcd3b288b1ef",
+      "data_verified_unchanged": true,
+      "presentation_changes": "Responsive plot dimensions and camera framing; original titles and annotations displayed as ordinary HTML; accessible external trace toggles.",
+      "filename": "loopsoup-3d-N200-c0p5-plotly.html",
+      "source": "rwls3d/output/loopsoup-3d-N200-c0p5-plotly.html",
+      "original_bytes": 22234244,
+      "output_bytes": 17390588
+    },
+    {
+      "engine": "Plotly 3.6.0",
+      "title": "Two intersection clusters: N = 200",
+      "archived_title": "Two Intersection Clusters in 3D RWLS (N=200, c=0.5, filtered loops=37,464)",
+      "archived_result_summaries": [
+        "Cluster 1: 162 loops, 13,044 total steps, diameter 0.597, rendered 162 loops / 13,206 points\nCluster 2: 77 loops, 5,300 total steps, diameter 0.444, rendered 77 loops / 5,377 points\nIntersection rule: loops share a lattice vertex. Filters: length >= 8, diameter >= 0.0."
+      ],
+      "trace_count": 5,
+      "data_sha256": "48d5cf448cffa06ddaab60c237597c86090b12ba34ea635a785e53301059f5e5",
+      "figure_sha256": "787e9b76b9a164660bdfce580e30ef1bfc00c9456c3c985cccfc218c49a09bb6",
+      "data_verified_unchanged": true,
+      "presentation_changes": "Responsive plot dimensions and camera framing; original titles and annotations displayed as ordinary HTML; accessible external trace toggles.",
+      "filename": "loopsoup-3d-N200-c0p5-two-clusters.html",
+      "source": "rwls3d/output/loopsoup-3d-N200-c0p5-two-clusters.html",
+      "original_bytes": 5931870,
+      "output_bytes": 1088343
+    },
+    {
+      "engine": "Original Canvas 2D projection",
+      "title": "Wired cube: N = 30, c = 0.5",
+      "archived_title": "3D RWLS Viewer",
+      "archived_result_summaries": [
+        "N: 30; c: 0.5; seed: None",
+        "Source loops: 1,354; shown loops: 1,354; shown steps: 4,130",
+        "Minimum length: 2; minimum lattice diameter: 0.0; largest shown loop: 78 steps"
+      ],
+      "shown_loop_count": 1354,
+      "source_loop_count": 1354,
+      "data_sha256": "e794b5b0be07a32c3dc7e30c427a26785685bf4012f6286c43020b1dc14b076b",
+      "data_verified_unchanged": true,
+      "presentation_changes": "Corrected unexpanded template braces outside DATA; responsive canvas dimensions and mobile framing; original rotation, pan, zoom, density, and reset logic retained.",
+      "filename": "loopsoup-3d-N30-c0p5.html",
+      "source": "rwls3d/output/loopsoup-3d-N30-c0p5.html",
+      "original_bytes": 168848,
+      "output_bytes": 167752
+    },
+    {
+      "engine": "Original Canvas 2D projection",
+      "title": "Wired cube: N = 50, c = 0.5",
+      "archived_title": "3D RWLS Viewer",
+      "archived_result_summaries": [
+        "N: 50; c: 0.5; seed: 2",
+        "Source loops: 6,961; shown loops: 6,961; shown steps: 23,594",
+        "Minimum length: 2; minimum lattice diameter: 0.0; largest shown loop: 228 steps"
+      ],
+      "shown_loop_count": 6961,
+      "source_loop_count": 6961,
+      "data_sha256": "c67439b4165a298108570fc6bc94423372217ad55584acc0473d89ac4386b642",
+      "data_verified_unchanged": true,
+      "presentation_changes": "Corrected unexpanded template braces outside DATA; responsive canvas dimensions and mobile framing; original rotation, pan, zoom, density, and reset logic retained.",
+      "filename": "loopsoup-3d-N50-c0p5.html",
+      "source": "rwls3d/output/loopsoup-3d-N50-c0p5.html",
+      "original_bytes": 900408,
+      "output_bytes": 899311
+    },
+    {
+      "engine": "Plotly 3.6.0",
+      "title": "Visible-loop sample: N = 50",
+      "archived_title": "3D Random Walk Loop Soup in a Cube (N=50, c=0.5, shown=122/122)",
+      "archived_result_summaries": [
+        "Visible filter: length >= 1, lattice diameter >= 0.0. Shown steps: 4,064. Largest shown loop: 198 steps. Drag to rotate, scroll to zoom, shift-drag to pan."
+      ],
+      "trace_count": 7,
+      "data_sha256": "82a6e2296a300234fe321fb2c84aeb9065ed645e57061df68469290a7db95da8",
+      "figure_sha256": "fce49cc320c11684282733a527fc35d44bfc349546eea3d32a6686d6aea9d483",
+      "data_verified_unchanged": true,
+      "presentation_changes": "Responsive plot dimensions and camera framing; original titles and annotations displayed as ordinary HTML; accessible external trace toggles.",
+      "filename": "loopsoup-3d-visible-N50-c0p5-plotly.html",
+      "source": "rwls3d/output/loopsoup-3d-visible-N50-c0p5-plotly.html",
+      "original_bytes": 5099900,
+      "output_bytes": 256230
+    },
+    {
+      "engine": "Plotly 3.6.0",
+      "title": "Sprinkling: N = 100, dust c = 1",
+      "archived_title": "Loop-Soup Sprinkling Gluing (N=100, c=0.5, dust c=1.0)",
+      "archived_result_summaries": [
+        "Macro cutoff L: 8.00 lattice diameter\nDust window: epsilon <= diameter < L, epsilon_min=1.00\nglues when epsilon reaches 0.0714 rescaled (7.07 lattice units)\nBridge dust loops: 1\nDust candidates inspected: 149 / 118,592\nMacro clusters intersect by shared lattice vertices; dust loops are independent."
+      ],
+      "trace_count": 8,
+      "data_sha256": "c8ff58742fc43a1fb549484e5c35eaab41329818c56391c5261330657c902743",
+      "figure_sha256": "f8006280094892753421b32d2b5629f4de68c318273895e11c969def4cc7b867",
+      "data_verified_unchanged": true,
+      "presentation_changes": "Responsive plot dimensions and camera framing; original titles and annotations displayed as ordinary HTML; accessible external trace toggles.",
+      "filename": "sprinkling-gluing-N100-dustc1.html",
+      "source": "rwls3d/output/sprinkling-gluing-N100-dustc1.html",
+      "original_bytes": 5417273,
+      "output_bytes": 573750
+    },
+    {
+      "engine": "Plotly 3.6.0",
+      "title": "Sprinkling: N = 100, dust c = 0.5",
+      "archived_title": "Loop-Soup Sprinkling Gluing (N=100, c=0.5, dust c=0.5)",
+      "archived_result_summaries": [
+        "Macro cutoff L: 8.00 lattice diameter\nDust window: epsilon <= diameter < L, epsilon_min=1.00\nno gluing for epsilon >= 1.00\nBridge dust loops: 0\nDust candidates inspected: 58,838 / 58,838\nMacro clusters intersect by shared lattice vertices; dust loops are independent."
+      ],
+      "trace_count": 6,
+      "data_sha256": "63e33e920420a007fa18a58b079a82fa82de168433e645f8c657216e51e96ea5",
+      "figure_sha256": "19f167c1d8c37273ec5c6b7a9fa1819516dd4574c69853504058b8b41f8d43cc",
+      "data_verified_unchanged": true,
+      "presentation_changes": "Responsive plot dimensions and camera framing; original titles and annotations displayed as ordinary HTML; accessible external trace toggles.",
+      "filename": "sprinkling-gluing-N100.html",
+      "source": "rwls3d/output/sprinkling-gluing-N100.html",
+      "original_bytes": 5000175,
+      "output_bytes": 156624
+    },
+    {
+      "engine": "Plotly 3.6.0",
+      "title": "Sprinkling: N = 200, dust c = 1",
+      "archived_title": "Loop-Soup Sprinkling Gluing (N=200, c=0.5, dust c=1.0)",
+      "archived_result_summaries": [
+        "Macro cutoff L: 8.00 lattice diameter\nDust window: epsilon <= diameter < L, epsilon_min=1.00\nglues when epsilon reaches 0.0355 rescaled (7.07 lattice units)\nBridge dust loops: 1\nDust candidates inspected: 1,147 / 982,537\nMacro clusters intersect by shared lattice vertices; dust loops are independent."
+      ],
+      "trace_count": 7,
+      "data_sha256": "5d102d41dece3149f0faff1834e68fd91f513e56741a9c4e758fe73015d5e6ce",
+      "figure_sha256": "e44f7c6238f6eba551ddcfaa3b1ed187757d9bc63ce8c19a2fa3d2e8c17ee239",
+      "data_verified_unchanged": true,
+      "presentation_changes": "Responsive plot dimensions and camera framing; original titles and annotations displayed as ordinary HTML; accessible external trace toggles.",
+      "filename": "sprinkling-gluing-N200-dustc1.html",
+      "source": "rwls3d/output/sprinkling-gluing-N200-dustc1.html",
+      "original_bytes": 5462119,
+      "output_bytes": 618598
+    },
+    {
+      "engine": "Plotly 3.6.0",
+      "title": "Sprinkling: N = 80, dust c = 0.5",
+      "archived_title": "Loop-Soup Sprinkling Gluing (N=80, c=0.5, dust c=0.5)",
+      "archived_result_summaries": [
+        "Macro cutoff L: 8.00 lattice diameter\nDust window: epsilon <= diameter < L, epsilon_min=2.00\nno gluing for epsilon >= 2.00\nBridge dust loops: 0\nDust candidates inspected: 3,013 / 3,013\nMacro clusters intersect by shared lattice vertices; dust loops are independent."
+      ],
+      "trace_count": 6,
+      "data_sha256": "901a8de49b0bc4302304b98c8733568c567c5bae3fe1a728af25e5fb1787908f",
+      "figure_sha256": "e3b3c9ef30411b02ab9b6d41609da7d1ed997724010ae5bd97432a48d167f26a",
+      "data_verified_unchanged": true,
+      "presentation_changes": "Responsive plot dimensions and camera framing; original titles and annotations displayed as ordinary HTML; accessible external trace toggles.",
+      "filename": "sprinkling-gluing-N80.html",
+      "source": "rwls3d/output/sprinkling-gluing-N80.html",
+      "original_bytes": 4885845,
+      "output_bytes": 42288
+    },
+    {
+      "engine": "Plotly 3.6.0",
+      "title": "Local-cube sprinkling: N = 80",
+      "archived_title": "Loop-Soup Sprinkling Gluing (N=80, c=0.5, dust c=1.0)",
+      "archived_result_summaries": [
+        "Cutoff metric: time length\nMacro cutoff L: 8.00\nDust window: epsilon <= time length < L, epsilon_min=2.00\nCONNECTED: glues when epsilon reaches 2 time steps\nBridge dust loops: 1\nDust candidates inspected: 1,654 / 5,770\nMacro clusters intersect by shared lattice vertices; dust loops are independent."
+      ],
+      "trace_count": 8,
+      "data_sha256": "fc96a6d9f95a52d9787384c1817d0ee9864f89d4cd997fcabe549e68604498c6",
+      "figure_sha256": "a3348b72201fd46ad9e457e8c26caf03c7b36c238e3b2475011e0752f3d11e46",
+      "data_verified_unchanged": true,
+      "presentation_changes": "Responsive plot dimensions and camera framing; original titles and annotations displayed as ordinary HTML; accessible external trace toggles.",
+      "filename": "sprinkling-local-cube-N80.html",
+      "source": "rwls3d/output/sprinkling-local-cube-N80.html",
+      "original_bytes": 5357049,
+      "output_bytes": 513520
+    }
+  ],
+  "shared_files": [
+    {
+      "filename": "plotly-3.6.0.min.js",
+      "bytes": 4844191
+    },
+    {
+      "filename": "plotly-viewer.js",
+      "bytes": 3149
+    },
+    {
+      "filename": "viewer.css",
+      "bytes": 2622
+    }
+  ],
+  "shared_plotly_sha256": "41a395c2d558d13d3655a1ebafaa67a072c2c1ac8c269e0ee67e18c9a137ac99",
+  "total_original_bytes": 69948962,
+  "total_output_bytes": 31203636
+}

@@ -1,0 +1,7 @@
+{% assign viewer_url = '/assets/simulations/viewers/' | append: include.file %}
+<details class="simulation-viewer">
+  <summary>{{ include.title }}</summary>
+  <p class="viewer-link"><a href="{{ viewer_url | relative_url }}">Open full-page viewer</a></p>
+  <iframe data-src="{{ viewer_url | relative_url }}" title="{{ include.title | escape }}" loading="lazy" allow="fullscreen" allowfullscreen></iframe>
+  <noscript><p><a href="{{ viewer_url | relative_url }}">Open {{ include.title }}</a></p></noscript>
+</details>

@@ -1,0 +1,118 @@
+[
+  {
+    "title": "Square-lattice experiments",
+    "files": [
+      {
+        "name": "RWLS.py",
+        "path": "Loop-soup/square/RWLS.py"
+      },
+      {
+        "name": "RWLS_cutoff.py",
+        "path": "Loop-soup/square/RWLS_cutoff.py"
+      },
+      {
+        "name": "RWLS_distance.py",
+        "path": "Loop-soup/square/RWLS_distance.py"
+      },
+      {
+        "name": "RWLS_distance_compare.py",
+        "path": "Loop-soup/square/RWLS_distance_compare.py"
+      },
+      {
+        "name": "RWLS_distance_interactive.py",
+        "path": "Loop-soup/square/RWLS_distance_interactive.py"
+      },
+      {
+        "name": "RWLS_epsilon_compare.py",
+        "path": "Loop-soup/square/RWLS_epsilon_compare.py"
+      },
+      {
+        "name": "RWLS_rewiring.py",
+        "path": "Loop-soup/square/RWLS_rewiring.py"
+      },
+      {
+        "name": "RWLS_rewiring_compare.py",
+        "path": "Loop-soup/square/RWLS_rewiring_compare.py"
+      },
+      {
+        "name": "RWLS_single_loop.py",
+        "path": "Loop-soup/square/RWLS_single_loop.py"
+      },
+      {
+        "name": "app.py",
+        "path": "Loop-soup/square/app.py"
+      }
+    ]
+  },
+  {
+    "title": "Circular visualizations",
+    "files": [
+      {
+        "name": "RWLS.py",
+        "path": "Loop-soup/Disk/RWLS.py"
+      },
+      {
+        "name": "RWLS_cutoff.py",
+        "path": "Loop-soup/Disk/RWLS_cutoff.py"
+      },
+      {
+        "name": "RWLS_distance.py",
+        "path": "Loop-soup/Disk/RWLS_distance.py"
+      },
+      {
+        "name": "RWLS_epsilon_compare.py",
+        "path": "Loop-soup/Disk/RWLS_epsilon_compare.py"
+      },
+      {
+        "name": "RWLS_rewiring.py",
+        "path": "Loop-soup/Disk/RWLS_rewiring.py"
+      },
+      {
+        "name": "RWLS_rewiring_compare.py",
+        "path": "Loop-soup/Disk/RWLS_rewiring_compare.py"
+      }
+    ]
+  },
+  {
+    "title": "Circular Streamlit app",
+    "files": [
+      {
+        "name": "app.py",
+        "path": "Loop-soup/app.py"
+      }
+    ]
+  },
+  {
+    "title": "Three-dimensional experiments",
+    "files": [
+      {
+        "name": "RWLS_3D.py",
+        "path": "rwls3d/RWLS_3D.py"
+      },
+      {
+        "name": "RWLS_3D_visible.py",
+        "path": "rwls3d/RWLS_3D_visible.py"
+      },
+      {
+        "name": "app.py",
+        "path": "rwls3d/app.py"
+      },
+      {
+        "name": "sprinkling_gluing.py",
+        "path": "rwls3d/sprinkling_gluing.py"
+      },
+      {
+        "name": "view_rwls3d.py",
+        "path": "rwls3d/view_rwls3d.py"
+      },
+      {
+        "name": "view_rwls3d_plotly.py",
+        "path": "rwls3d/view_rwls3d_plotly.py"
+      },
+      {
+        "name": "view_rwls3d_two_clusters.py",
+        "path": "rwls3d/view_rwls3d_two_clusters.py"
+      }
+    ]
+  }
+]
