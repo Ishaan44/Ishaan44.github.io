@@ -1,0 +1,906 @@
+{
+  "description": "VP9 Profile 0, 8-bit yuv420p WebM alternatives derived directly from the original GIFs. Original states are held on a 24 fps timeline without interpolation, with unchanged animation duration to WebM's millisecond precision. Even dimensions are bounded by 1280 pixels; keyframes are at most five seconds apart, with seek cues at the front.",
+  "assets": [
+    {
+      "id": "square-rewiring",
+      "source": "Loop-soup/square/loopsoup-rewiring-square.gif",
+      "source_sha256": "580b26be3f020b1350dc11855095226b523f3933037d4f1f98ac2a57282bf075",
+      "original_gif_bytes": 101657071,
+      "original_duration_seconds": 401.0,
+      "path": "site-staging/webm/square-rewiring.webm",
+      "filename": "square-rewiring.webm",
+      "output_sha256": "42176f23294f02808567b142ac3a1ec212a5335d3b1f32899b5193cdccd35719",
+      "output_media": {
+        "width": 960,
+        "height": 1020,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 9624,
+        "time_base": "1/1000",
+        "duration_seconds": 401.0,
+        "bytes": 51375951
+      },
+      "validation": {
+        "timeline_packets": 9624,
+        "keyframes": 81,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 61.69041519409805,
+            "pixel_sha256": "29486d811cd14e6a17668ac6f23ef99fd92d09684da52dea4eac53d555eaca59",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 200.5,
+            "pixel_standard_deviation": 60.96600347611987,
+            "pixel_sha256": "6a2aa719cf36c078ac861828292bc641ba69faac1e8da788c6efb96672c9bbe9",
+            "mean_change_from_previous": 1.0022135416666667
+          },
+          {
+            "time_seconds": 400.75,
+            "pixel_standard_deviation": 61.12914900097954,
+            "pixel_sha256": "fdcabbd60af52d7d5e068a3bd5bf6da0bf4c881aa4c1193e30c692c371fefe12",
+            "mean_change_from_previous": 0.48190104166666664
+          }
+        ]
+      },
+      "processing_seconds": 246.45
+    },
+    {
+      "id": "square-rewiring-comparison",
+      "source": "Loop-soup/square/loopsoup-rewiring-compare-square.gif",
+      "source_sha256": "7b57b50fdb4778ecb0bea8e49202fc4ea40fc052bfe32a6901ccdd2393a4540e",
+      "original_gif_bytes": 10198852,
+      "original_duration_seconds": 20.5,
+      "path": "site-staging/webm/square-rewiring-comparison.webm",
+      "filename": "square-rewiring-comparison.webm",
+      "output_sha256": "66b0e85b7724d71c6a45df1ef21bffb6011692d0f0ce96afa9cffbad61e6799a",
+      "output_media": {
+        "width": 1232,
+        "height": 1280,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 492,
+        "time_base": "1/1000",
+        "duration_seconds": 20.5,
+        "bytes": 3657830
+      },
+      "validation": {
+        "timeline_packets": 492,
+        "keyframes": 5,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 66.62544336185812,
+            "pixel_sha256": "1ce77524948e85d989f28933fdd80ae4d6309adf6b3d695273e4658a52d1ced3",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 10.25,
+            "pixel_standard_deviation": 66.30895151220783,
+            "pixel_sha256": "b15f5fc746c74c3cb956466a935d562bebcfa65cbfb27b2029779a1136dc6844",
+            "mean_change_from_previous": 2.158502604166667
+          },
+          {
+            "time_seconds": 20.25,
+            "pixel_standard_deviation": 66.23190791481152,
+            "pixel_sha256": "335da77f7a41aa9fbc8125fd075f949840a1677f45df987b5124747c15c25ea9",
+            "mean_change_from_previous": 2.276106770833333
+          }
+        ]
+      },
+      "processing_seconds": 28.99
+    },
+    {
+      "id": "square-distance",
+      "source": "Loop-soup/loopsoup-distance-square.gif",
+      "source_sha256": "84da31f8f7b2704e967cd620a8b08f64280b92df7ed9cdf733520d221142a736",
+      "original_gif_bytes": 2089476,
+      "original_duration_seconds": 50.5,
+      "path": "site-staging/webm/square-distance.webm",
+      "filename": "square-distance.webm",
+      "output_sha256": "0f7e0ac152ee875584667688611d48392966a14c0d8301f158b565e866923f43",
+      "output_media": {
+        "width": 1280,
+        "height": 640,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 1212,
+        "time_base": "1/1000",
+        "duration_seconds": 50.5,
+        "bytes": 1013825
+      },
+      "validation": {
+        "timeline_packets": 1212,
+        "keyframes": 11,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 28.294043618912312,
+            "pixel_sha256": "709a6f47a5584f6cad8a8c5c192dc0a0e5e1269b7ec7e9d56f7aca50fa202310",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 25.25,
+            "pixel_standard_deviation": 27.764421239801514,
+            "pixel_sha256": "4d2484bccbf7b8a7382ed858a24af34dd8020b7b069df639b48b37312af2cfec",
+            "mean_change_from_previous": 2.8982942708333335
+          },
+          {
+            "time_seconds": 50.25,
+            "pixel_standard_deviation": 28.071436642340387,
+            "pixel_sha256": "0877e96e3d8cba2ddc41c40d5c13fab8df900607d455a3015b5dce845438691c",
+            "mean_change_from_previous": 3.774140625
+          }
+        ]
+      },
+      "processing_seconds": 22.56
+    },
+    {
+      "id": "square-distance-comparison",
+      "source": "Loop-soup/square/loopsoup-distance-compare-square.gif",
+      "source_sha256": "849cd61e36bc755165f93a179f766dcfda1394fcd3b647eceb337645beb0b5fd",
+      "original_gif_bytes": 4637348,
+      "original_duration_seconds": 20.5,
+      "path": "site-staging/webm/square-distance-comparison.webm",
+      "filename": "square-distance-comparison.webm",
+      "output_sha256": "120fae58254c56d597d1798ab22229ee1a701c313812b8ca692174b7d2f252de",
+      "output_media": {
+        "width": 1280,
+        "height": 1280,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 492,
+        "time_base": "1/1000",
+        "duration_seconds": 20.5,
+        "bytes": 1972367
+      },
+      "validation": {
+        "timeline_packets": 492,
+        "keyframes": 5,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 47.42229823653773,
+            "pixel_sha256": "7651175e04f98d9a12c3afd5479f6f0afe7fb74d4974a3d587b9b2952da833fd",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 10.25,
+            "pixel_standard_deviation": 47.11265383835545,
+            "pixel_sha256": "f9dc6cb0cfd512060e7ed7dc28c5e360a7d39fcb4176fc1163081f769112cf6d",
+            "mean_change_from_previous": 1.5060677083333334
+          },
+          {
+            "time_seconds": 20.25,
+            "pixel_standard_deviation": 47.256743701686275,
+            "pixel_sha256": "da793cc5b69ae6acfc740db3f670d4337ac6140c489c746bf62b08169bd1ce8e",
+            "mean_change_from_previous": 1.4792447916666667
+          }
+        ]
+      },
+      "processing_seconds": 30.82
+    },
+    {
+      "id": "square-single-loop",
+      "source": "Loop-soup/square/loopsoup-single-loop.gif",
+      "source_sha256": "9890d9e1b5495601c84c2c5853be5c5338a65fa359f17a6333039ae861704050",
+      "original_gif_bytes": 2951196,
+      "original_duration_seconds": 241.0,
+      "path": "site-staging/webm/square-single-loop.webm",
+      "filename": "square-single-loop.webm",
+      "output_sha256": "bc7a88701e19dcad40e02278f4b1d672d966c042ce04d2f800b0abee4d8fe326",
+      "output_media": {
+        "width": 840,
+        "height": 900,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 5784,
+        "time_base": "1/1000",
+        "duration_seconds": 241.0,
+        "bytes": 3461556
+      },
+      "validation": {
+        "timeline_packets": 5784,
+        "keyframes": 49,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 32.59215476050349,
+            "pixel_sha256": "916a41b4180f0fe996fd0ec4da2160687ea641554e9441c83d1f168277b40b11",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 120.5,
+            "pixel_standard_deviation": 33.17921293171464,
+            "pixel_sha256": "6c18974707316e9a5498275334e1952d40db7f2c753a92d810c9178b33eadba6",
+            "mean_change_from_previous": 1.2269270833333332
+          },
+          {
+            "time_seconds": 240.75,
+            "pixel_standard_deviation": 33.18251448444358,
+            "pixel_sha256": "0920a0f7e4344edfc60a3bf3d9476a33a23a54a60844e623f8c62a83fe08ebc1",
+            "mean_change_from_previous": 0.17602864583333333
+          }
+        ]
+      },
+      "processing_seconds": 79.13
+    },
+    {
+      "id": "disk-rewiring",
+      "source": "Loop-soup/Disk/loopsoup-rewiring.gif",
+      "source_sha256": "7eaa0045802367fe764cabddfa074ba9ccffbb424d9759fa8aef1edc7b621984",
+      "original_gif_bytes": 1564612,
+      "original_duration_seconds": 41.0,
+      "path": "site-staging/webm/disk-rewiring.webm",
+      "filename": "disk-rewiring.webm",
+      "output_sha256": "28c855343453e0cfacf6db71398657a4e0951b68ab66ee7b83bc4f1050b10a72",
+      "output_media": {
+        "width": 960,
+        "height": 960,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 984,
+        "time_base": "1/1000",
+        "duration_seconds": 41.0,
+        "bytes": 1458076
+      },
+      "validation": {
+        "timeline_packets": 984,
+        "keyframes": 9,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 53.70033552105789,
+            "pixel_sha256": "728da4835d692b6bc464bdec2e057177e636d703d26084ce0ce3dec46fed9110",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 20.5,
+            "pixel_standard_deviation": 53.879470476234,
+            "pixel_sha256": "c5c679118210a32395cd730eefed0255dd37c5c3e90909af294bdc4ce914eb47",
+            "mean_change_from_previous": 1.663359375
+          },
+          {
+            "time_seconds": 40.75,
+            "pixel_standard_deviation": 53.73983483986398,
+            "pixel_sha256": "ff110b1ac652aae1ec15efd70baa39e6c65231c2076609aeb3b7cfd90cbce796",
+            "mean_change_from_previous": 1.06703125
+          }
+        ]
+      },
+      "processing_seconds": 24.07
+    },
+    {
+      "id": "disk-rewiring-comparison",
+      "source": "Loop-soup/Disk/loopsoup-rewiring-compare.gif",
+      "source_sha256": "08ca2537485bc61d93acd168a71bbed53384085a209cce422fb100e75992ab3a",
+      "original_gif_bytes": 8329230,
+      "original_duration_seconds": 20.5,
+      "path": "site-staging/webm/disk-rewiring-comparison.webm",
+      "filename": "disk-rewiring-comparison.webm",
+      "output_sha256": "ea7e25b5db81a64c7a3067c1a7139d03fb773ed0211fb1d7f0cd3a534dec826d",
+      "output_media": {
+        "width": 1280,
+        "height": 1280,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 492,
+        "time_base": "1/1000",
+        "duration_seconds": 20.5,
+        "bytes": 2583276
+      },
+      "validation": {
+        "timeline_packets": 492,
+        "keyframes": 5,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 58.7314050963388,
+            "pixel_sha256": "84196a3e65e1ae9c4c4b65ae7141898bc8a9beb3cbad779d97abd502799b5e5f",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 10.25,
+            "pixel_standard_deviation": 58.60543018720797,
+            "pixel_sha256": "e1967c446d047bfd7d5808acf7f1c94a248cafb41782167957a75356bd87849d",
+            "mean_change_from_previous": 1.4155729166666666
+          },
+          {
+            "time_seconds": 20.25,
+            "pixel_standard_deviation": 58.59891846232103,
+            "pixel_sha256": "e4f41cd16aff769142cbcc2a2de2db9505c360728252acb24129fc10a90b080a",
+            "mean_change_from_previous": 0.9967708333333334
+          }
+        ]
+      },
+      "processing_seconds": 18.07
+    },
+    {
+      "id": "disk-distance",
+      "source": "Loop-soup/Disk/loopsoup-distance.gif",
+      "source_sha256": "2e6600f190459c4bd429be73758d230e10a962849f5e962ddab9b2faaccf86ed",
+      "original_gif_bytes": 22015404,
+      "original_duration_seconds": 500.5,
+      "path": "site-staging/webm/disk-distance.webm",
+      "filename": "disk-distance.webm",
+      "output_sha256": "e665b752148239a65cafecf8f6cdad30b96d2af899f4faf26f1f7c8214fcda0b",
+      "output_media": {
+        "width": 1280,
+        "height": 640,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 12012,
+        "time_base": "1/1000",
+        "duration_seconds": 500.5,
+        "bytes": 8403597
+      },
+      "validation": {
+        "timeline_packets": 12012,
+        "keyframes": 101,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 24.87557111462041,
+            "pixel_sha256": "57a105be3e4508bb1266c8ebd7eb158f3a3fa6e154b16150aca14b8d6d62f2a3",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 250.25,
+            "pixel_standard_deviation": 24.93708733721098,
+            "pixel_sha256": "8e6bf0e48e7d7518175363c78749ab86ebd158572cb2e665a69deee8a361bad2",
+            "mean_change_from_previous": 1.9283333333333332
+          },
+          {
+            "time_seconds": 500.25,
+            "pixel_standard_deviation": 25.107272956778182,
+            "pixel_sha256": "2ec7aa72d384b2c4d480b38a3c9f4691db51a437db66d109be92da06bb46214d",
+            "mean_change_from_previous": 1.9716276041666667
+          }
+        ]
+      },
+      "processing_seconds": 190.32
+    },
+    {
+      "id": "supplementary-loopsoup-distance-copy",
+      "source": "loopsoup-distance copy.gif",
+      "source_sha256": "137271af66433062d5d700831ef29828ab5e4a6cb6780e4563b46118fbd27069",
+      "original_gif_bytes": 3161515,
+      "original_duration_seconds": 50.5,
+      "path": "site-staging/webm/supplementary-loopsoup-distance-copy.webm",
+      "filename": "supplementary-loopsoup-distance-copy.webm",
+      "output_sha256": "14f7a6556e6ce60e9b3a7fa86ddcebbe6a71c99e33cc7c06796cd469400ccc94",
+      "output_media": {
+        "width": 1280,
+        "height": 640,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 1212,
+        "time_base": "1/1000",
+        "duration_seconds": 50.5,
+        "bytes": 1223257
+      },
+      "validation": {
+        "timeline_packets": 1212,
+        "keyframes": 11,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 28.91178024728258,
+            "pixel_sha256": "a80011b0128710fd73f5e40f900af06f500745dfe71072b1c20c428daa9b8378",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 25.25,
+            "pixel_standard_deviation": 27.2201374259673,
+            "pixel_sha256": "04eee7ebcd826463e5a6c69e348b7a100fbe528939c74044f59a3cefe05d08da",
+            "mean_change_from_previous": 3.4153125
+          },
+          {
+            "time_seconds": 50.25,
+            "pixel_standard_deviation": 28.212355505290123,
+            "pixel_sha256": "9ed961d3cdee9632347971ced9e994bba2d2ff9d658a483611c36d0d75e0d005",
+            "mean_change_from_previous": 3.3246484375
+          }
+        ]
+      },
+      "processing_seconds": 21.65
+    },
+    {
+      "id": "supplementary-loopsoup-distance-square",
+      "source": "loopsoup-distance-square.gif",
+      "source_sha256": "a153e0dee26b4c04bed1bba0e8759b4da8f78c4acb19ed785731549b0a057d22",
+      "original_gif_bytes": 2322895,
+      "original_duration_seconds": 50.5,
+      "path": "site-staging/webm/supplementary-loopsoup-distance-square.webm",
+      "filename": "supplementary-loopsoup-distance-square.webm",
+      "output_sha256": "8a066390848694a2057a73965b6f6dbcf9bfa79adf5b2115089423892dd965df",
+      "output_media": {
+        "width": 1280,
+        "height": 640,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 1212,
+        "time_base": "1/1000",
+        "duration_seconds": 50.5,
+        "bytes": 974199
+      },
+      "validation": {
+        "timeline_packets": 1212,
+        "keyframes": 11,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 24.72539644651337,
+            "pixel_sha256": "86f7aaf614d759246c5228eaa6a3f575705e01963501f6451ab7a2c7bd94f184",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 25.25,
+            "pixel_standard_deviation": 24.850902128997113,
+            "pixel_sha256": "e38300acc2a0384c2ece31b6a277c430e57c984fb20cdf5ee72df8e878a800a8",
+            "mean_change_from_previous": 2.2660546875
+          },
+          {
+            "time_seconds": 50.25,
+            "pixel_standard_deviation": 24.967702029885544,
+            "pixel_sha256": "a3c1e7d7e3d728af92e3f627cd8b39893abd541ed5b72b834b576b2e3482e96d",
+            "mean_change_from_previous": 2.448125
+          }
+        ]
+      },
+      "processing_seconds": 20.54
+    },
+    {
+      "id": "supplementary-loopsoup-distance",
+      "source": "loopsoup-distance.gif",
+      "source_sha256": "2b6cd9bc233e7a3051a35dc468481414e0ece321f05f5cba1121f5f368166e45",
+      "original_gif_bytes": 963870,
+      "original_duration_seconds": 25.5,
+      "path": "site-staging/webm/supplementary-loopsoup-distance.webm",
+      "filename": "supplementary-loopsoup-distance.webm",
+      "output_sha256": "a833e8bb7354bd7b1dfc836de70b3426c7794491e1531c53731fd7e21a07f9e8",
+      "output_media": {
+        "width": 1280,
+        "height": 640,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 612,
+        "time_base": "1/1000",
+        "duration_seconds": 25.5,
+        "bytes": 368490
+      },
+      "validation": {
+        "timeline_packets": 612,
+        "keyframes": 6,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 23.589658713853492,
+            "pixel_sha256": "b3cd6c7d1843e89b652746f2dc4d4da51e83feed4ae9731f3607ed8503df3006",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 12.75,
+            "pixel_standard_deviation": 23.848379075429506,
+            "pixel_sha256": "a47bad97c02daf90e3d68a612ecd396820e9c81a19af17253104f5c59cbd3b80",
+            "mean_change_from_previous": 1.7101692708333334
+          },
+          {
+            "time_seconds": 25.25,
+            "pixel_standard_deviation": 23.631697378129868,
+            "pixel_sha256": "6814e2b7889fdb027919d09d521c2f23fc4ecc6d5d5f2d2cb92486da4668566b",
+            "mean_change_from_previous": 2.0491145833333335
+          }
+        ]
+      },
+      "processing_seconds": 11.05
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring-copy",
+      "source": "loopsoup-rewiring copy.gif",
+      "source_sha256": "31e8b2ded0b42e9fa051409bcb92db31de809648db0f6939522ce4b6cc3876a0",
+      "original_gif_bytes": 979805,
+      "original_duration_seconds": 41.0,
+      "path": "site-staging/webm/supplementary-loopsoup-rewiring-copy.webm",
+      "filename": "supplementary-loopsoup-rewiring-copy.webm",
+      "output_sha256": "e194cd7b9fb9f82a6bfdd5077c662269668ccb6e2889411acc3fedb8bc2f2efd",
+      "output_media": {
+        "width": 700,
+        "height": 700,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 984,
+        "time_base": "1/1000",
+        "duration_seconds": 41.0,
+        "bytes": 773341
+      },
+      "validation": {
+        "timeline_packets": 984,
+        "keyframes": 9,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 37.565717207582615,
+            "pixel_sha256": "6d17a615081f2b9c2eb8d57f918b381a8ab06697d95be0f395b34e337097c591",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 20.5,
+            "pixel_standard_deviation": 40.547519582993296,
+            "pixel_sha256": "c667a2fe7045834fa4db40c3cfdaf18c772d58add7d5af6a4ab4ea499142aba7",
+            "mean_change_from_previous": 2.09265625
+          },
+          {
+            "time_seconds": 40.75,
+            "pixel_standard_deviation": 40.352327216959175,
+            "pixel_sha256": "71f3943cc9ac8270edb3ca5e2cfcfc6bdf4d31e840872a9f5dec61643d1db807",
+            "mean_change_from_previous": 2.9059635416666665
+          }
+        ]
+      },
+      "processing_seconds": 12.88
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring-compare-copy-2",
+      "source": "loopsoup-rewiring-compare copy 2.gif",
+      "source_sha256": "543abed8765c8039e0183fc62cbc06cf2384e4261338d34b88e2467ee64dc9bd",
+      "original_gif_bytes": 16741344,
+      "original_duration_seconds": 100.5,
+      "path": "site-staging/webm/supplementary-loopsoup-rewiring-compare-copy-2.webm",
+      "filename": "supplementary-loopsoup-rewiring-compare-copy-2.webm",
+      "output_sha256": "02ee0ecedf15a39a3fa315f8a5e23056e664d99088d92d9c49ecb749de0a2776",
+      "output_media": {
+        "width": 1200,
+        "height": 1200,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 2412,
+        "time_base": "1/1000",
+        "duration_seconds": 100.5,
+        "bytes": 10083377
+      },
+      "validation": {
+        "timeline_packets": 2412,
+        "keyframes": 21,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 97.47332552906842,
+            "pixel_sha256": "23c2cb94d9184b78751603728424a011f6ce9430d51c77f4bb213944a9f548e7",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 50.25,
+            "pixel_standard_deviation": 97.0109190551765,
+            "pixel_sha256": "f92b21da10b99dfdddfc1c14cb4fa168e159cfd14aaf97dd84a8c4de65ff6a20",
+            "mean_change_from_previous": 1.3068229166666667
+          },
+          {
+            "time_seconds": 100.25,
+            "pixel_standard_deviation": 96.7536078609151,
+            "pixel_sha256": "6535315809c4c4367df9d8fc35f8254f38e045248d6f7ee6c61d35c87c17903a",
+            "mean_change_from_previous": 1.3079557291666666
+          }
+        ]
+      },
+      "processing_seconds": 93.91
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring-compare-copy",
+      "source": "loopsoup-rewiring-compare copy.gif",
+      "source_sha256": "dfc96d0dca2d081cc72ba2f6caeb59f6b69e7b88707c89bb09216dc021ad240a",
+      "original_gif_bytes": 2708558,
+      "original_duration_seconds": 20.5,
+      "path": "site-staging/webm/supplementary-loopsoup-rewiring-compare-copy.webm",
+      "filename": "supplementary-loopsoup-rewiring-compare-copy.webm",
+      "output_sha256": "a8f8d88a55e66c6c67dea9bd54a045917262862b414e8d7818beeadbf6387991",
+      "output_media": {
+        "width": 1200,
+        "height": 1200,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 492,
+        "time_base": "1/1000",
+        "duration_seconds": 20.5,
+        "bytes": 2179194
+      },
+      "validation": {
+        "timeline_packets": 492,
+        "keyframes": 5,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 88.97322436003564,
+            "pixel_sha256": "acf0aa5a14da3ae98224dbbbc935c4e785b3e47d9cccc84460898d92406c7e39",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 10.25,
+            "pixel_standard_deviation": 88.48220068765704,
+            "pixel_sha256": "428e4c5404c54f99164a84a12d4e05b85e3ea8c5cbc32f87210110af778859eb",
+            "mean_change_from_previous": 1.0083072916666667
+          },
+          {
+            "time_seconds": 20.25,
+            "pixel_standard_deviation": 87.42524108675451,
+            "pixel_sha256": "2bae9a18d2811cccc9b7949b87da2456b076aa474173c3dc84242eac50670f7f",
+            "mean_change_from_previous": 1.83765625
+          }
+        ]
+      },
+      "processing_seconds": 19.28
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring-compare",
+      "source": "loopsoup-rewiring-compare.gif",
+      "source_sha256": "9e3f3dce90893cb07b2e7dcade476b40cd2213e9fe2383a1d6738d365576a783",
+      "original_gif_bytes": 630390,
+      "original_duration_seconds": 5.25,
+      "path": "site-staging/webm/supplementary-loopsoup-rewiring-compare.webm",
+      "filename": "supplementary-loopsoup-rewiring-compare.webm",
+      "output_sha256": "9b00c9f076c80d5b24863cb23de03de7af3b7b90a67afec847f039ee5a2ab5de",
+      "output_media": {
+        "width": 1200,
+        "height": 1200,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 126,
+        "time_base": "1/1000",
+        "duration_seconds": 5.25,
+        "bytes": 603452
+      },
+      "validation": {
+        "timeline_packets": 126,
+        "keyframes": 2,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 47.6673665376782,
+            "pixel_sha256": "850d58345df78b0915a5f931c2db42ce0b10de5ecf36166b3fc8b5205ada2f7e",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 2.625,
+            "pixel_standard_deviation": 47.660256932298374,
+            "pixel_sha256": "fd1ef32924961c4536b3605f0a430d4e166b91da6f566c0f6038472f41018bd0",
+            "mean_change_from_previous": 0.16231770833333334
+          },
+          {
+            "time_seconds": 5.0,
+            "pixel_standard_deviation": 47.63435284756324,
+            "pixel_sha256": "f3149ed8dac2ce158a3603ef81ce32f55083ef8987635a1143377260d7ffdea2",
+            "mean_change_from_previous": 0.058619791666666664
+          }
+        ]
+      },
+      "processing_seconds": 5.64
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring",
+      "source": "loopsoup-rewiring.gif",
+      "source_sha256": "b7c00aad5668fb5b82fd6063ff156216d3f8d2cd2e3922d6d1ec3b1a212b5ba9",
+      "original_gif_bytes": 4658315,
+      "original_duration_seconds": 25.25,
+      "path": "site-staging/webm/supplementary-loopsoup-rewiring.webm",
+      "filename": "supplementary-loopsoup-rewiring.webm",
+      "output_sha256": "408945cf1dd751493a4cd672150e94428bfd13d572094ce7af585c24aafdaa87",
+      "output_media": {
+        "width": 700,
+        "height": 700,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 606,
+        "time_base": "1/1000",
+        "duration_seconds": 25.25,
+        "bytes": 725492
+      },
+      "validation": {
+        "timeline_packets": 606,
+        "keyframes": 6,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 47.96813614913708,
+            "pixel_sha256": "051ffbe9b3d6531dbca8581a4f67c11ab56ddc2915fb18fa7113aa8b15036674",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 12.625,
+            "pixel_standard_deviation": 50.558646124882465,
+            "pixel_sha256": "33e00cbb05b1082013a0cc29e9158e28a4f0adb58c68820c7da2b7246fe2904a",
+            "mean_change_from_previous": 2.24484375
+          },
+          {
+            "time_seconds": 25.0,
+            "pixel_standard_deviation": 48.15950451529295,
+            "pixel_sha256": "b771af9dfe4a1a45e90f1c40fea9057ec26f61b2391b531999f96bf85f6dec5a",
+            "mean_change_from_previous": 3.409518229166667
+          }
+        ]
+      },
+      "processing_seconds": 10.96
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring0-001",
+      "source": "loopsoup-rewiring0.001.gif",
+      "source_sha256": "543a013c9b7ceda1fbf7a38efe0422893f0630ab2162e08800383ce67c1a9afb",
+      "original_gif_bytes": 2330080,
+      "original_duration_seconds": 5.25,
+      "path": "site-staging/webm/supplementary-loopsoup-rewiring0-001.webm",
+      "filename": "supplementary-loopsoup-rewiring0-001.webm",
+      "output_sha256": "d2ff192168982b26e83e2a541cf47d2070220a77ab6eb6913644d9302d19b0af",
+      "output_media": {
+        "width": 700,
+        "height": 700,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 126,
+        "time_base": "1/1000",
+        "duration_seconds": 5.25,
+        "bytes": 402783
+      },
+      "validation": {
+        "timeline_packets": 126,
+        "keyframes": 2,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 66.0267815687816,
+            "pixel_sha256": "21b177a82b71579d8e1a7bd46b834f76c677f8aefec24b5f1dce4726d8f96826",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 2.625,
+            "pixel_standard_deviation": 66.03419771175795,
+            "pixel_sha256": "6031cb4177ce3e5fcadded782b711c1d63c5049f094f9527eb7e98b73eea8d6b",
+            "mean_change_from_previous": 0.30225260416666666
+          },
+          {
+            "time_seconds": 5.0,
+            "pixel_standard_deviation": 66.0337985447571,
+            "pixel_sha256": "dc9e273b064a692b515f018e9bef88ee7ddf10d7d8706f99f066c08977f93fb6",
+            "mean_change_from_previous": 0.07358072916666666
+          }
+        ]
+      },
+      "processing_seconds": 1.69
+    },
+    {
+      "id": "supplementary-loopsoup-distance-square-copy",
+      "source": "square/loopsoup-distance-square copy.gif",
+      "source_sha256": "cf80fd2117847eb56514fb92234ce749495c3249999ffd9b79fe1adde6a6504f",
+      "original_gif_bytes": 10687675,
+      "original_duration_seconds": 250.5,
+      "path": "site-staging/webm/supplementary-loopsoup-distance-square-copy.webm",
+      "filename": "supplementary-loopsoup-distance-square-copy.webm",
+      "output_sha256": "694c870a2fd2586ad71b4b7df666af641e31cf000ca4808653dfbf5cfc2b1105",
+      "output_media": {
+        "width": 1280,
+        "height": 640,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 6012,
+        "time_base": "1/1000",
+        "duration_seconds": 250.5,
+        "bytes": 4091613
+      },
+      "validation": {
+        "timeline_packets": 6012,
+        "keyframes": 51,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 20.67874431159579,
+            "pixel_sha256": "515b6c41f16b41e987f38b594a142d347556261b602ffce7b64fae784c33de35",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 125.25,
+            "pixel_standard_deviation": 21.836724269501563,
+            "pixel_sha256": "b35c253bd68ad81831ccf18b2ce8d06f87819f9049d1d4ba2a2b3842e01a2ff0",
+            "mean_change_from_previous": 2.780065104166667
+          },
+          {
+            "time_seconds": 250.25,
+            "pixel_standard_deviation": 22.83042990016625,
+            "pixel_sha256": "11f1f892572e308d5f47bef6393c6eec55614e7a6d58eb046570620ec28e60d5",
+            "mean_change_from_previous": 2.84
+          }
+        ]
+      },
+      "processing_seconds": 96.43
+    },
+    {
+      "id": "supplementary-loopsoup-rewiring-square",
+      "source": "square/loopsoup-rewiring-square.gif",
+      "source_sha256": "bb64f04a5844e70e46d567670fa2c62ddac3098929481d0035cb4efe4375b237",
+      "original_gif_bytes": 1963801,
+      "original_duration_seconds": 41.0,
+      "path": "site-staging/webm/supplementary-loopsoup-rewiring-square.webm",
+      "filename": "supplementary-loopsoup-rewiring-square.webm",
+      "output_sha256": "f89c8994e400a4c21cfa7118850274aa39df9113e833cb399e022f635b4c8b23",
+      "output_media": {
+        "width": 960,
+        "height": 1020,
+        "codec": "vp9",
+        "profile": "Profile 0",
+        "pixel_format": "yuv420p",
+        "frame_rate": "24/1",
+        "frames": 984,
+        "time_base": "1/1000",
+        "duration_seconds": 41.0,
+        "bytes": 1305581
+      },
+      "validation": {
+        "timeline_packets": 984,
+        "keyframes": 9,
+        "sampled_frames": [
+          {
+            "time_seconds": 0,
+            "pixel_standard_deviation": 48.055550826485366,
+            "pixel_sha256": "e3c3ddd738bd466e12b800884dc69b8c089412d746b90485544b25a0c780b6fb",
+            "mean_change_from_previous": null
+          },
+          {
+            "time_seconds": 20.5,
+            "pixel_standard_deviation": 48.02700700734258,
+            "pixel_sha256": "b5a20093dec08b9d6197d54eac480f69ec9b23ae4ac2ef63cafb4b3ac1dee848",
+            "mean_change_from_previous": 1.6746744791666666
+          },
+          {
+            "time_seconds": 40.75,
+            "pixel_standard_deviation": 47.8620515816233,
+            "pixel_sha256": "ddee34a8486cfbc68ed4b7dd4441a7e70b937de0b5e077ed518b742766467cba",
+            "mean_change_from_previous": 2.3075260416666667
+          }
+        ]
+      },
+      "processing_seconds": 28.74
+    }
+  ],
+  "totals": {
+    "videos": 19,
+    "output_bytes": 96657257,
+    "original_gif_bytes": 200591437,
+    "all_originals_below_100MiB": true,
+    "all_originals_below_100MB": false,
+    "processing_seconds": 511.38
+  }
+}

@@ -4,14 +4,24 @@
 <figure class="simulation-media">
   {% if media.poster %}
   {% assign poster_url = '/assets/simulations/' | append: media.poster %}
-  <video controls playsinline loop preload="metadata" poster="{{ poster_url | relative_url }}" width="{{ media.output_media.width }}" height="{{ media.output_media.height }}" aria-label="{{ include.title | escape }}">
-    <source src="{{ media_url | relative_url }}" type="video/mp4">
-    <a href="{{ media_url | relative_url }}">{{ include.title }}</a>
-  </video>
+  {% assign sequence = site.data.simulation_frames.assets | where: 'id', include.id | first %}
+  {% assign sequence_url = '/assets/simulations/frames/' | append: sequence.manifest %}
+  {% assign icons_url = '/assets/simulations/icons' | relative_url %}
+  <div class="simulation-player" data-sequence="{{ sequence_url | relative_url }}" data-duration="{{ media.output_media.duration_seconds }}" data-id="{{ include.id }}">
+    <img class="simulation-frame" src="{{ poster_url | relative_url }}" width="{{ sequence.width }}" height="{{ sequence.height }}" style="aspect-ratio: {{ sequence.width }}/{{ sequence.height }}; object-fit: contain" alt="{{ include.title | escape }}" loading="lazy" decoding="async">
+    <div class="simulation-controls" role="group" aria-label="{{ include.title | escape }} playback">
+      <input class="simulation-seek" type="range" min="0" max="{{ media.output_media.duration_seconds }}" step="0.25" value="0" aria-label="{{ include.title | escape }} time">
+      <button class="simulation-control simulation-play" type="button" aria-label="Play" title="Play"><img src="{{ icons_url }}/play.svg" data-play="{{ icons_url }}/play.svg" data-pause="{{ icons_url }}/pause.svg" width="20" height="20" alt=""></button>
+      <button class="simulation-control simulation-replay" type="button" aria-label="Replay" title="Replay"><img src="{{ icons_url }}/rotate-ccw.svg" width="20" height="20" alt=""></button>
+      <output class="simulation-time" aria-live="off">0:00</output>
+      <button class="simulation-control simulation-fullscreen" type="button" aria-label="Fullscreen" title="Fullscreen"><img src="{{ icons_url }}/maximize.svg" width="20" height="20" alt=""></button>
+    </div>
+    <p class="simulation-status" role="status" aria-live="polite"></p>
+  </div>
   {% else %}
   <a class="image-link" href="{{ media_url | relative_url }}" aria-label="{{ include.title | escape }} (full-size image)">
     <img src="{{ media_url | relative_url }}" alt="{{ include.alt | default: include.title | escape }}" width="{{ media.output_media.width }}" height="{{ media.output_media.height }}" loading="lazy" decoding="async">
   </a>
   {% endif %}
-  <figcaption><strong>{{ include.title }}</strong>{% if include.caption %}<br>{{ include.caption }}{% endif %}{% if media.poster %}<br><a href="{{ media_url | relative_url }}">Open video</a>{% endif %}</figcaption>
+  <figcaption><strong>{{ include.title }}</strong>{% if include.caption %}<br>{{ include.caption }}{% endif %}{% if media.poster %}<br><a href="{{ media_url | relative_url }}" download>MP4</a>{% assign webm = site.data.simulation_webm.assets | where: 'id', include.id | first %}{% if webm %} · <a href="{{ '/assets/simulations/webm/' | relative_url }}{{ webm.filename }}?v={{ webm.output_sha256 | slice: 0, 12 }}" download>WebM</a>{% endif %}{% endif %}</figcaption>
 </figure>

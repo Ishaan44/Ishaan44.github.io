@@ -1,0 +1,39 @@
+{
+  "source": "Loop-soup/loopsoup-distance-square.gif",
+  "source_sha256": "84da31f8f7b2704e967cd620a8b08f64280b92df7ed9cdf733520d221142a736",
+  "transform": "composited-exact-png-original-v3",
+  "source_width": 1540,
+  "source_height": 770,
+  "png_bytes": 3519268,
+  "indexed_png_frames": 101,
+  "rgb_png_frames": 0,
+  "verification": {
+    "source_frame_count": 101,
+    "source_duration_ms": 50500,
+    "all_frames_preserved": true,
+    "all_frame_durations_preserved": true,
+    "first_middle_last": [
+      {
+        "file": "00000.png",
+        "luminance_min": 0,
+        "luminance_max": 255,
+        "luminance_stddev": 34.5371,
+        "dark_pixels": 40997
+      },
+      {
+        "file": "00050.png",
+        "luminance_min": 0,
+        "luminance_max": 255,
+        "luminance_stddev": 32.2365,
+        "dark_pixels": 36052
+      },
+      {
+        "file": "00100.png",
+        "luminance_min": 0,
+        "luminance_max": 255,
+        "luminance_stddev": 32.3749,
+        "dark_pixels": 36116
+      }
+    ]
+  }
+}

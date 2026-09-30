@@ -1,0 +1,39 @@
+{
+  "source": "Loop-soup/Disk/loopsoup-rewiring.gif",
+  "source_sha256": "7eaa0045802367fe764cabddfa074ba9ccffbb424d9759fa8aef1edc7b621984",
+  "transform": "composited-exact-png-original-v3",
+  "source_width": 960,
+  "source_height": 960,
+  "png_bytes": 3222993,
+  "indexed_png_frames": 41,
+  "rgb_png_frames": 0,
+  "verification": {
+    "source_frame_count": 41,
+    "source_duration_ms": 41000,
+    "all_frames_preserved": true,
+    "all_frame_durations_preserved": true,
+    "first_middle_last": [
+      {
+        "file": "00000.png",
+        "luminance_min": 0,
+        "luminance_max": 255,
+        "luminance_stddev": 61.8942,
+        "dark_pixels": 112045
+      },
+      {
+        "file": "00020.png",
+        "luminance_min": 0,
+        "luminance_max": 255,
+        "luminance_stddev": 62.0407,
+        "dark_pixels": 115822
+      },
+      {
+        "file": "00040.png",
+        "luminance_min": 0,
+        "luminance_max": 255,
+        "luminance_stddev": 62.2713,
+        "dark_pixels": 113802
+      }
+    ]
+  }
+}

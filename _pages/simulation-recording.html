@@ -1,0 +1,21 @@
+---
+layout: clean
+title: Simulation recording
+permalink: /simulations/recording/
+simulations: true
+---
+<article class="simulations-page">
+  <p><a href="{{ '/simulations/' | relative_url }}">All simulations</a></p>
+  <h1>Simulation recording</h1>
+  <label for="recording">Recording</label>
+  <select id="recording" class="simulation-recording-select">
+    {% for media in site.data.simulation_media.assets %}{% if media.poster %}
+    <option value="{{ media.id }}">{{ media.source | escape }}</option>
+    {% endif %}{% endfor %}
+  </select>
+  {% for media in site.data.simulation_media.assets %}{% if media.poster %}
+  <div data-recording="{{ media.id }}"{% unless forloop.first %} hidden{% endunless %}>
+    {% include simulation-media.html id=media.id title=media.source %}
+  </div>
+  {% endif %}{% endfor %}
+</article>

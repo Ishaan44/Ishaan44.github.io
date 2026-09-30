@@ -1,0 +1,39 @@
+{
+  "source": "loopsoup-rewiring-compare.gif",
+  "source_sha256": "9e3f3dce90893cb07b2e7dcade476b40cd2213e9fe2383a1d6738d365576a783",
+  "transform": "composited-exact-png-original-v3",
+  "source_width": 1200,
+  "source_height": 1200,
+  "png_bytes": 3374151,
+  "indexed_png_frames": 21,
+  "rgb_png_frames": 0,
+  "verification": {
+    "source_frame_count": 21,
+    "source_duration_ms": 5250,
+    "all_frames_preserved": true,
+    "all_frame_durations_preserved": true,
+    "first_middle_last": [
+      {
+        "file": "00000.png",
+        "luminance_min": 0,
+        "luminance_max": 255,
+        "luminance_stddev": 55.0957,
+        "dark_pixels": 319108
+      },
+      {
+        "file": "00010.png",
+        "luminance_min": 0,
+        "luminance_max": 255,
+        "luminance_stddev": 55.1085,
+        "dark_pixels": 319200
+      },
+      {
+        "file": "00020.png",
+        "luminance_min": 0,
+        "luminance_max": 255,
+        "luminance_stddev": 55.1063,
+        "dark_pixels": 319173
+      }
+    ]
+  }
+}
