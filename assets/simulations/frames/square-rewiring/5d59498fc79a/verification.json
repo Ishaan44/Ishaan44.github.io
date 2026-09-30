@@ -1,0 +1,39 @@
+{
+  "source": "Loop-soup/square/loopsoup-rewiring-square.gif",
+  "source_sha256": "580b26be3f020b1350dc11855095226b523f3933037d4f1f98ac2a57282bf075",
+  "transform": "composited-exact-png-original-v3",
+  "source_width": 960,
+  "source_height": 1020,
+  "png_bytes": 162652553,
+  "indexed_png_frames": 401,
+  "rgb_png_frames": 0,
+  "verification": {
+    "source_frame_count": 401,
+    "source_duration_ms": 401000,
+    "all_frames_preserved": true,
+    "all_frame_durations_preserved": true,
+    "first_middle_last": [
+      {
+        "file": "00000.png",
+        "luminance_min": 0,
+        "luminance_max": 255,
+        "luminance_stddev": 92.172,
+        "dark_pixels": 490171
+      },
+      {
+        "file": "00200.png",
+        "luminance_min": 0,
+        "luminance_max": 255,
+        "luminance_stddev": 92.172,
+        "dark_pixels": 494044
+      },
+      {
+        "file": "00400.png",
+        "luminance_min": 0,
+        "luminance_max": 255,
+        "luminance_stddev": 92.1652,
+        "dark_pixels": 493121
+      }
+    ]
+  }
+}
